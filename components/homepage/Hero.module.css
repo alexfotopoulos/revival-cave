@@ -1,0 +1,41 @@
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0, .4), rgb(0,0,0, .4)), url("../../public/heroImage.jpeg");
+    background-size: cover;
+    background-position: top;
+}
+
+.header {
+    color: #eee;
+    padding: 0 10%;
+    position: absolute;
+    top: 40%;
+}
+
+.header h1 {
+    font-size: 6rem;
+    margin-bottom: 1.5rem;
+}
+
+.header h3 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.heroButton {
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    font-size: 1.6rem;
+    background-color: transparent;
+    color: #eee;
+    border: 1px solid #eee;
+    transition: all .2s ease-out;
+}
+
+.heroButton:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #eee;
+    color: transparent;
+    color: grey;
+}

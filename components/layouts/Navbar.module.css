@@ -1,0 +1,22 @@
+.nav {
+    position: absolute;
+    top: 5rem;
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #eee;
+}
+
+.brand {
+    font-size: 3.5rem;
+}
+
+.linksGroup {
+    font-size: 1.8rem;
+}
+
+.linksGroup a:not(:last-child) {
+    margin-right: 2rem;
+}
