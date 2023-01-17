@@ -21,21 +21,3 @@
     font-size: 1.6rem;
     font-weight: 400;
 }
-
-.heroButton {
-    margin-top: 2rem;
-    padding: 1rem 2.5rem;
-    font-size: 1.6rem;
-    background-color: transparent;
-    color: #eee;
-    border: 1px solid #eee;
-    transition: all .2s ease-out;
-}
-
-.heroButton:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    background-color: #eee;
-    color: transparent;
-    color: grey;
-}

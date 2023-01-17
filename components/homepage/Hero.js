@@ -1,4 +1,5 @@
 import styles from "./Hero.module.css";
+import Button from "../utilities/Button";
 
 export default function Hero() {
     return (
@@ -10,7 +11,7 @@ export default function Hero() {
                 </h1>
                 <h3>Whether you are seeking relief from everyday aches and pains or <br/> looking to maintain a healthy, active life, we can help.</h3>
                 <div>
-                    <button className={styles.heroButton}>New Patient Special</button>
+                    <Button text="New patient special" />
                 </div>
             </div>
         </div>

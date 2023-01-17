@@ -49,3 +49,7 @@
 .navIcon::after {
     top: .8rem;
 }
+
+.navIcon:hover {
+    cursor: pointer;
+}

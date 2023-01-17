@@ -26,7 +26,9 @@ export default function Navbar() {
       )
     } else {
       setContent(
-        <span className={styles.navIcon} onClick={handleShowModal}></span>
+        <div onClick={handleShowModal}>
+          <span className={styles.navIcon}></span>
+        </div>
       );
     }
   }, [])
@@ -43,7 +45,9 @@ export default function Navbar() {
         )
       } else {
         setContent(
-          <span className={styles.navIcon} onClick={handleShowModal}></span>
+          <div onClick={handleShowModal}>
+            <span className={styles.navIcon}></span>
+          </div>
         );
       }
     }
@@ -58,7 +62,7 @@ export default function Navbar() {
         <div className={styles.brand}><Link href="/">RVC</Link></div>
         {!showModal && content}
       </nav>
-      {showModal && <Modal function={handleCloseModal}/>}
+      {showModal && <Modal function={handleCloseModal} />}
     </div>
   )
 }
