@@ -1,0 +1,54 @@
+.pricingDisplay {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.valueDisplay {
+    align-self: flex-end;
+    background-color: #28282a;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.mainDisplay {
+    padding: 3rem 2rem;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainDisplay > span:first-child {
+    margin-right: 1rem;
+}
+
+.mainDisplay > span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.militaryDisplay {
+    display: flex;
+}
+
+.militaryDisplaySection1,
+.militaryDisplaySection2 {
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+    color: #eee;
+}
+
+.militaryDisplaySection1 {
+    background-color: rgba(169, 84, 58);
+}
+
+.militaryDisplaySection2 {
+    background-color: #28282a;
+}
+
+@media (max-width: 660px) {
+    .pricingDisplay {
+        margin: 1rem;
+    }
+}

@@ -19,14 +19,14 @@ export default function Navbar() {
     if (window.innerWidth > 900) {
       setContent(
         <div className={styles.linksGroup}>
-          <Link legacyBehavior href="/health-benefits"><a>Health Benefits</a></Link>
-          <Link legacyBehavior href="/plans"><a>Plans & Pricing</a></Link>
+          <Link legacyBehavior href="/schedule"><a>Schedule a Visit</a></Link>
+          <Link legacyBehavior href="/plans-pricing"><a>Plans & Pricing</a></Link>
           <Link legacyBehavior href="/about"><a>About</a></Link>
         </div>
       )
     } else {
       setContent(
-        <div onClick={handleShowModal}>
+        <div className={styles.iconDiv} onClick={handleShowModal}>
           <span className={styles.navIcon}></span>
         </div>
       );
@@ -38,14 +38,14 @@ export default function Navbar() {
       if (window.innerWidth > 900) {
         setContent(
           <div className={styles.linksGroup}>
+            <Link legacyBehavior href="/schedule"><a>Schedule a Visit</a></Link>
+            <Link legacyBehavior href="/plans-pricing"><a>Plans & Pricing</a></Link>
             <Link legacyBehavior href="/about"><a>About</a></Link>
-            <Link legacyBehavior href="/health-benefits"><a>Health Benefits</a></Link>
-            <Link legacyBehavior href="/plans"><a>Plans & Pricing</a></Link>
           </div>
         )
       } else {
         setContent(
-          <div onClick={handleShowModal}>
+          <div className={styles.iconDiv} onClick={handleShowModal}>
             <span className={styles.navIcon}></span>
           </div>
         );

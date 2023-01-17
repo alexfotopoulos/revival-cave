@@ -27,6 +27,10 @@
     font-size: 3rem;
 }
 
+.closeModal:hover {
+  cursor: pointer;
+}
+
 .linksGroup {
     display: flex;
     flex-direction: column;
