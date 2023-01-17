@@ -16,14 +16,14 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={styles.footerSection1Sub2}>
-                    <div>
+                    <div className={styles.footerList1}>
                         <div className={styles.footerListHeading}>Company</div>
                         <ul>
                             <li>About</li>
                             <li>Military Appreciation</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className={styles.footerList2}>
                         <div className={styles.footerListHeading}>Social</div>
                         <ul>
                             <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -43,7 +43,7 @@ export default function Footer() {
                             </svg> LinkedIn</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className={styles.footerList3}>
                         <div className={styles.footerListHeading}>Customer Service</div>
                         <ul>
                             <li>Contact</li>
@@ -56,7 +56,7 @@ export default function Footer() {
             </div>
             <div className={styles.footerSection2}>
                 <div className={styles.footerSection2Sub1}>
-                    <p>*Offer valued at $45. Valid for new patients only. Initial visit includes consultation, exam and adjustment. Offer and offer value may vary for Medicare eligible patients. NC: IF YOU DECIDE TO PURCHASE ADDITIONAL TREATMENT, YOU HAVE THE LEGAL RIGHT TO CHANGE YOUR MIND WITHIN THREE DAYS AND RECEIVE A REFUND. (N.C. Gen. Stat. 90-154.1). FL & KY: THE PATIENT AND ANY OTHER PERSON RESPONSIBLE FOR PAYMENT HAS THE RIGHT TO REFUSE TO PAY, CANCEL (RESCIND) PAYMENT OR BE REIMBURSED FOR ANY OTHER SERVICE, EXAMINATION OR TREATMENT WHICH IS PERFORMED AS A RESULT OF AND WITHIN 72 HOURS OF RESPONDING TO THE ADVERTISEMENT FOR THE FREE, DISCOUNTED OR REDUCED FEE SERVICES, EXAMINATION OR TREATMENT. (FLA. STAT. 456.02) (201 KAR 21:065). Subject to additional state statutes and regulations. See clinic for chiropractor(s)’ name and license info. Clinics managed and/or owned by franchisee or Prof. Corps. Restrictions may apply to Medicare eligible patients. Individual results may vary.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, rem exercitationem? Sapiente repellat voluptates placeat officiis quae dicta perferendis repellendus, hic sed doloribus ab voluptatum ipsam molestiae magni dolorum fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, rem exercitationem? Sapiente repellat voluptates placeat officiis quae dicta perferendis repellendus, hic sed doloribus ab voluptatum ipsam molestiae magni dolorum fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, rem exercitationem? Sapiente repellat voluptates placeat officiis quae dicta perferendis repellendus, hic sed doloribus ab voluptatum ipsam molestiae magni dolorum fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, rem exercitationem? Sapiente repellat voluptates placeat officiis quae dicta perferendis repellendus, hic sed doloribus ab voluptatum ipsam molestiae magni dolorum fuga.</p>
                 </div>
                 <div className={styles.footerSection2Sub2}>
                     <p>&copy; 2023 The Revival Cave. All Rights Reserved | Site Search | Sitemap</p>

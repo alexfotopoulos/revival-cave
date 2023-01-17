@@ -35,3 +35,15 @@
 .missionList li:not(:last-child) {
     margin-bottom: .5rem;
 }
+
+@media (max-width: 650px) {
+    .mission {
+        flex-direction: column;
+    }
+    .missionSection {
+        width: 100%;
+    }
+    .missionSection:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+}

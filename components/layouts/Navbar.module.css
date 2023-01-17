@@ -20,3 +20,32 @@
 .linksGroup a:not(:last-child) {
     margin-right: 2rem;
 }
+
+.navIcon {
+    position: relative;
+}
+
+.navIcon,
+.navIcon::before,
+.navIcon::after  {
+    width: 3rem;
+    height: .2rem;
+    background-color: #eee;
+    display: inline-block;
+}
+
+.navIcon::before,
+.navIcon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .2s;
+}
+
+.navIcon::before {
+    top: -.8rem;
+}
+
+.navIcon::after {
+    top: .8rem;
+}
