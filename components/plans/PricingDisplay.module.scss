@@ -1,3 +1,5 @@
+@import "../../styles/sass/abstracts/_variables.scss";
+
 .pricingDisplay {
     display: flex;
     flex-direction: column;
@@ -6,24 +8,24 @@
 
 .valueDisplay {
     align-self: flex-end;
-    background-color: #28282a;
-    color: white;
+    background-color: $color-dark;
+    color: $color-white;
     padding: 1rem 2rem;
 }
 
 .mainDisplay {
     padding: 3rem 2rem;
-    border: 1px solid grey;
+    border: 1px solid $color-light-grey;
     display: flex;
     justify-content: space-between;
 }
 
 .mainDisplay > span:first-child {
-    margin-right: 1rem;
+    margin-right: $margin-right-smaller;
 }
 
 .mainDisplay > span {
-    font-size: 2rem;
+    font-size: $font-size-medium;
     font-weight: bold;
 }
 
@@ -36,15 +38,15 @@
     width: 50%;
     text-align: center;
     padding: 1rem;
-    color: #eee;
+    color: $color-white;
 }
 
 .militaryDisplaySection1 {
-    background-color: rgba(169, 84, 58);
+    background-color: $color-secondary;
 }
 
 .militaryDisplaySection2 {
-    background-color: #28282a;
+    background-color: $color-dark;
 }
 
 @media (max-width: 660px) {

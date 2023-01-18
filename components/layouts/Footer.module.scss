@@ -1,39 +1,41 @@
+@import "../../styles/sass/abstracts/variables";
+
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: #28282a;
-    color: #888;
+    background-color: $color-dark;
+    color: $color-light-grey;
     padding: 7rem 10% 3rem;
 }
 
 .footerSection1 {
     display: flex;
-    margin-bottom: 3rem;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid #888;
+    margin-bottom: $margin-bottom-medium;
+    padding-bottom: $margin-bottom-small;
+    border-bottom: 1px solid $color-light-grey;
 }
 
 .footerSection1Sub1 {
     width: 40%;
-    margin-right: 1rem;
+    margin-right: $margin-right-small;
 }
 
 .footerCompanyName {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-    color: #eee;
+    font-size: $font-size-large;
+    margin-bottom: $margin-bottom-small;
+    color: $color-white;
 }
 
 .footerCompanyName + p {
-    color: #eee;
-    border-bottom: 1px solid #888;
-    padding-bottom: 3rem;
-    margin-bottom: 3rem;
+    color: $color-white;
+    border-bottom: 1px solid $color-light-grey;
+    padding-bottom: $margin-bottom-small;
+    margin-bottom: $margin-bottom-small;
     display: inline-block;
 }
 
 .address:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: $margin-bottom-smaller;
 }
 
 .footerSection1Sub2 {
@@ -43,8 +45,8 @@
 }
 
 .footerListHeading {
-    color: #eee;
-    margin-bottom: 1rem;
+    color: $color-white;
+    margin-bottom: $margin-bottom-smaller;
 }
 
 .footerListHeading + ul {
@@ -52,13 +54,13 @@
 }
 
 .footerListHeading + ul > li:not(:last-child) {
- margin-bottom: 1rem;
+ margin-bottom: $margin-bottom-smaller;
 }
 
 .footerSection2 {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 3rem;
+    padding-bottom: $margin-bottom-medium;
 }
 
 .footerSection2Sub1 {
@@ -66,16 +68,16 @@
 }
 
 .footerSection2Sub1 > p {
-    font-size: 1rem;
+    font-size: $font-size-small;
 }
 
 .footerSection2Sub2 > p {
-    font-size: 1rem;
+    font-size: $font-size-small;
 }
 
 .footerList1,
 .footerList2 {
-    margin-right: 1rem;
+    margin-right: $margin-right-smaller;
 }
 
 @media (max-width: 650px) {

@@ -1,4 +1,4 @@
-import styles from "../styles/pageStyles/schedule.module.css";
+import styles from "../styles/pageStyles/schedule.module.scss";
 import Navbar from "@/components/layouts/Navbar";
 import Footer from "@/components/layouts/Footer";
 

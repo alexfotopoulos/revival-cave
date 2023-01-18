@@ -1,4 +1,4 @@
-import styles from "./PricingDisplay.module.css";
+import styles from "./PricingDisplay.module.scss";
 
 export default function PricingDisplay(props) {
     return (

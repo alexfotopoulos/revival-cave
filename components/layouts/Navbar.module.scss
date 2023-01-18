@@ -1,3 +1,5 @@
+@import "../../styles/sass/abstracts/_variables.scss";
+
 .nav {
     position: absolute;
     top: 5rem;
@@ -6,19 +8,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #eee;
+    color: $color-white;
 }
 
 .brand {
-    font-size: 3.5rem;
+    font-size: $font-size-larger;
 }
 
 .linksGroup {
-    font-size: 1.8rem;
+    font-size: $font-size-medium;
 }
 
 .linksGroup a:not(:last-child) {
-    margin-right: 2rem;
+    margin-right: $margin-right-small;
 }
 
 .navIcon {
@@ -30,7 +32,7 @@
 .navIcon::after  {
     width: 3rem;
     height: .2rem;
-    background-color: #eee;
+    background-color: $color-white;
     display: inline-block;
 }
 

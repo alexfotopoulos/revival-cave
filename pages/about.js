@@ -1,7 +1,7 @@
 import Footer from "@/components/layouts/Footer";
 import Navbar from "@/components/layouts/Navbar";
 import ScheduleNow from "@/components/utilities/ScheduleNow";
-import styles from "../styles/pageStyles/about.module.css";
+import styles from "../styles/pageStyles/about.module.scss";
 
 export default function about() {
     return (

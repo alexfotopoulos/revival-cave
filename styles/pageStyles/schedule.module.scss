@@ -1,0 +1,29 @@
+@import "../sass/abstracts/variables";
+@import "../sass/abstracts/mixins";
+
+.navBackground {
+    height: 18vh;
+    background-color: $color-primary;
+}
+
+.schedulePage {
+    padding: 0 10%;
+    margin: 6rem 0;
+}
+
+.scheduleHeading1 {
+    @include heading-primary;
+    margin-bottom: $margin-bottom-small;
+}
+
+.scheduleSectionHeading {
+    font-size: $font-size-large;
+    font-weight: 300;
+    margin: $margin-bottom-small 0;
+}
+
+@media (max-width: 900px) {
+    .navBackground {
+        height: 16vh;
+    }
+}

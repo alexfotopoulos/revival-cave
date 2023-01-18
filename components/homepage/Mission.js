@@ -1,4 +1,4 @@
-import styles from "./Mission.module.css";
+import styles from "./Mission.module.scss";
 
 export default function Mission() {
     return (

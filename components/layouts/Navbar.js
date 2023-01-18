@@ -1,4 +1,4 @@
-import styles from "./Navbar.module.css";
+import styles from "./Navbar.module.scss";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import Modal from "../utilities/Modal";
@@ -19,9 +19,9 @@ export default function Navbar() {
     if (window.innerWidth > 900) {
       setContent(
         <div className={styles.linksGroup}>
-          <Link legacyBehavior href="/schedule"><a>Schedule a Visit</a></Link>
-          <Link legacyBehavior href="/plans-pricing"><a>Plans & Pricing</a></Link>
-          <Link legacyBehavior href="/about"><a>About</a></Link>
+          <Link href="/schedule"><a>Schedule a Visit</a></Link>
+          <Link href="/plans-pricing"><a>Plans & Pricing</a></Link>
+          <Link href="/about"><a>About</a></Link>
         </div>
       )
     } else {
@@ -38,9 +38,9 @@ export default function Navbar() {
       if (window.innerWidth > 900) {
         setContent(
           <div className={styles.linksGroup}>
-            <Link legacyBehavior href="/schedule"><a>Schedule a Visit</a></Link>
-            <Link legacyBehavior href="/plans-pricing"><a>Plans & Pricing</a></Link>
-            <Link legacyBehavior href="/about"><a>About</a></Link>
+            <Link href="/schedule"><a>Schedule a Visit</a></Link>
+            <Link href="/plans-pricing"><a>Plans & Pricing</a></Link>
+            <Link href="/about"><a>About</a></Link>
           </div>
         )
       } else {

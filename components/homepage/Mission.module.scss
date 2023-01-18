@@ -1,6 +1,8 @@
+@import "../../styles/sass/abstracts/_variables.scss";
+@import "../../styles/sass/abstracts/_mixins.scss";
+
 .mission {
     padding: 10rem 10%;
-    background-color: #eee;
     display: flex;
     justify-content: space-between;
 }
@@ -13,27 +15,27 @@
 }
 
 .missionSection h2 {
-    font-size: 2.5rem;
+    @include heading-tertiary;
     display: inline-block;
-    background: linear-gradient(to right bottom, rgb(75, 128, 67), rgb(169, 84, 58));
+    background: linear-gradient(to right bottom, $color-primary, $color-secondary);
     color: transparent;
     background-clip: text;
-    margin-bottom: 1.5rem;
+    margin-bottom: $margin-bottom-small;
 }
 
 .missionStatement {
-    font-size: 4rem;
+    @include heading-secondary;
     font-weight: 700;
-    margin-bottom: 1.5rem;
+    margin-bottom: $margin-bottom-small;
 }
 
 .missionList {
     list-style: none;
-    font-size: 1.8rem;
+    font-size: $font-size-medium;
 }
 
 .missionList li:not(:last-child) {
-    margin-bottom: .5rem;
+    margin-bottom: $margin-bottom-smaller;
 }
 
 @media (max-width: 650px) {
@@ -44,6 +46,6 @@
         width: 100%;
     }
     .missionSection:not(:last-child) {
-        margin-bottom: 4rem;
+        margin-bottom: $margin-bottom-medium;
     }
 }
