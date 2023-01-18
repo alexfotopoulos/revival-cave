@@ -1,0 +1,27 @@
+.navBackground {
+    height: 18vh;
+    background-color: rgb(75, 128, 67);
+}
+
+.schedulePage {
+    padding: 0 10%;
+    margin: 6rem 0;
+}
+
+.scheduleHeading1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.scheduleSectionHeading {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 2rem 0;
+}
+
+@media (max-width: 900px) {
+    .navBackground {
+        height: 16vh;
+    }
+}

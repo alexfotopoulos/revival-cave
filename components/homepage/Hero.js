@@ -11,7 +11,7 @@ export default function Hero() {
                 </h1>
                 <h3>Whether you are seeking relief from everyday aches and pains or <br/> looking to maintain a healthy, active life, we can help.</h3>
                 <div>
-                    <Button text="New patient special" />
+                    <Button text="Book an Appointment" />
                 </div>
             </div>
         </div>

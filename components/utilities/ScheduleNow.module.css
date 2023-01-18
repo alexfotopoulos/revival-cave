@@ -1,10 +1,10 @@
-.scheduler {
+.scheduleNow {
     background: linear-gradient(to right bottom, rgba(75, 128, 67, .7), rgba(169, 84, 58, .7));
     color: #eee;
     padding: 3rem;
 }
 
-.schedulerHeading {
+.scheduleNowHeading {
     font-size: 3rem;
     margin-bottom: 2rem;
 }

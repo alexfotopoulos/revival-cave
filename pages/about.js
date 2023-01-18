@@ -1,6 +1,6 @@
 import Footer from "@/components/layouts/Footer";
 import Navbar from "@/components/layouts/Navbar";
-import Scheduler from "@/components/utilities/Scheduler";
+import ScheduleNow from "@/components/utilities/ScheduleNow";
 import styles from "../styles/pageStyles/about.module.css";
 
 export default function about() {
@@ -22,7 +22,7 @@ export default function about() {
                     <p>Error adipisci, voluptatibus optio modi iure hic laboriosam earum ab voluptatem rem quos cupiditate est beatae, autem suscipit consequatur.</p>
                 </div>
                 <div className={styles.aboutSection2}>
-                    <Scheduler />
+                    <ScheduleNow />
                 </div>
             </div>
             <Footer />

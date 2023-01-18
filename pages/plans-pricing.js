@@ -1,6 +1,6 @@
 import Navbar from "@/components/layouts/Navbar";
 import styles from "../styles/pageStyles/plansPricing.module.css";
-import Scheduler from "@/components/utilities/Scheduler";
+import ScheduleNow from "@/components/utilities/ScheduleNow";
 import Footer from "@/components/layouts/Footer";
 import PricingDisplay from "@/components/plans/PricingDisplay";
 
@@ -40,7 +40,7 @@ export default function plansPricing() {
                     </div>
                 </div>
                 <div className={styles.plansSection2}>
-                    <Scheduler />
+                    <ScheduleNow />
                 </div>
             </div>
             <Footer />
