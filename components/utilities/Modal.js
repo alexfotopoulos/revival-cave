@@ -6,7 +6,7 @@ export default function Modal(props) {
         props.function();
     }
     return (
-        <div>
+        <div className={styles.modalContainer}>
             <div className={styles.closeModal} onClick={handleClick}>&#x2715;</div>
             <div className={styles.backdrop}></div>
             <div className={styles.modal}>

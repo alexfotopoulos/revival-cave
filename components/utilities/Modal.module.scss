@@ -1,4 +1,6 @@
 @import "../../styles/sass/abstracts/_variables.scss";
+@import "../../styles/sass/abstracts/_animations.scss";
+
 
 .modal {
     position: fixed;
@@ -8,6 +10,8 @@
     z-index: 100;
     overflow: hidden;
     color: $color-white;
+    animation: fadeIn .3s ease-out .3s;
+    animation-fill-mode: backwards;
   }
 
 .backdrop {
@@ -18,6 +22,7 @@
   height: 100vh;
   z-index: 10;
   background: rgba(0, 0, 0, 0.85);
+  animation: moveInLeft .3s ease-out;
 }
 
 .closeModal {
@@ -27,6 +32,8 @@
     z-index: 100;
     color: $color-white;
     font-size: 3rem;
+    animation: fadeIn .3s ease-out .3s;
+    animation-fill-mode: backwards;
 }
 
 .closeModal:hover {
