@@ -12,15 +12,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
 
-.missionSection h2 {
-    @include heading-tertiary;
-    display: inline-block;
-    background: linear-gradient(to right bottom, $color-primary, $color-secondary);
-    color: transparent;
-    background-clip: text;
-    margin-bottom: $margin-bottom-small;
+    & h2 {
+        @include heading-tertiary;
+        display: inline-block;
+        background: linear-gradient(to right bottom, $color-primary, $color-secondary);
+        color: transparent;
+        background-clip: text;
+        margin-bottom: $margin-bottom-small;
+    }
 }
 
 .missionStatement {
@@ -32,10 +32,10 @@
 .missionList {
     list-style: none;
     font-size: $font-size-medium;
-}
 
-.missionList li:not(:last-child) {
-    margin-bottom: $margin-bottom-smaller;
+    & li:not(:last-child) {
+        margin-bottom: $margin-bottom-smaller;
+    }
 }
 
 @media (max-width: 650px) {
@@ -44,8 +44,9 @@
     }
     .missionSection {
         width: 100%;
-    }
-    .missionSection:not(:last-child) {
-        margin-bottom: $margin-bottom-medium;
+
+        &:not(:last-child) {
+            margin-bottom: $margin-bottom-medium;
+        }
     }
 }

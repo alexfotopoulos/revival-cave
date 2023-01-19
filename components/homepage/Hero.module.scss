@@ -15,23 +15,25 @@
     top: 40%;
     animation: fadeIn 2s ease-out .3s;
     animation-fill-mode: backwards;
-}
 
-.header h1 {
-    font-size: 6rem;
-    margin-bottom: $margin-bottom-small;
-}
+    & h1 {
+        font-size: 6rem;
+        margin-bottom: $margin-bottom-small;
+    }
 
-.header p {
-    margin-bottom: $margin-bottom-small;
-    max-width: 50%;
+    & p {
+        margin-bottom: $margin-bottom-small;
+        max-width: 50%;
+    }
 }
 
 @media (max-width: 600px) {
-    .header h1 {
-        font-size: 4.8rem;
-    }
-    .header p {
-        max-width: 90%;
+    .header {
+        & h1 {
+            font-size: 4.8rem;
+        }
+        & p {
+            max-width: 90%;
+        }
     }
 }

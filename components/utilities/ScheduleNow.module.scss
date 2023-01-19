@@ -4,13 +4,13 @@
     background: linear-gradient(to right bottom, $color-primary, $color-secondary);
     color: $color-white;
     padding: 3rem;
+
+    & p {
+        margin-bottom: $margin-bottom-small;
+    }
 }
 
 .scheduleNowHeading {
     font-size: $font-size-large;
-    margin-bottom: $margin-bottom-small;
-}
-
-.scheduleNow p {
     margin-bottom: $margin-bottom-small;
 }

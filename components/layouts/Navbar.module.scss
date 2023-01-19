@@ -17,10 +17,10 @@
 
 .linksGroup {
     font-size: $font-size-medium;
-}
 
-.linksGroup a:not(:last-child) {
-    margin-right: $margin-right-small;
+    & a:not(:last-child) {
+        margin-right: $margin-right-small;
+    }
 }
 
 .navIcon {
