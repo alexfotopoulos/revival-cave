@@ -6,6 +6,7 @@
 
 .officeHours {
     display: flex;
+    font-size: $font-size-default;
 }
 
 .officeHoursDay div {
@@ -16,4 +17,13 @@
 .officeHoursTime div {
     text-align: center;
     margin-bottom: .5rem;
+}
+
+@media (max-width: 650px) {
+    .officeHoursHeading {
+        text-align: center
+    }
+    .officeHours {
+        justify-content: center;
+    }
 }

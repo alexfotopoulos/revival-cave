@@ -1,14 +1,15 @@
 @import "../../styles/sass/abstracts/variables";
 
 .officeInfo {
-    padding: 10rem 10%;
+    padding: 5rem 10%;
+    min-height: 50rem;
     display: flex;
     justify-content: space-between;
     background-color: $color-light-grey-2;
 }
 
 .officeInfoSection {
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,8 +18,10 @@
 @media (max-width: 650px) {
     .officeInfo {
         flex-direction: column;
+        min-height: 50rem;
     }
     .officeInfoSection {
+        height: 25rem;
         width: 100%;
 
         &:not(:last-child) {

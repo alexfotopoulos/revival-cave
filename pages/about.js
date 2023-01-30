@@ -1,5 +1,6 @@
 import Footer from "@/components/layouts/Footer";
 import Navbar from "@/components/layouts/Navbar";
+import OfficeInfo from "@/components/layouts/OfficeInfo";
 import ScheduleNow from "@/components/utilities/ScheduleNow";
 import styles from "../styles/pageStyles/about.module.scss";
 
@@ -26,6 +27,7 @@ export default function about() {
                     <ScheduleNow />
                 </div>
             </div>
+            <OfficeInfo />
             <Footer />
         </div>
     )
