@@ -1,0 +1,19 @@
+@import "../../styles/sass/abstracts/variables";
+
+.officeHoursHeading {
+    margin-bottom: $margin-bottom-small;
+}
+
+.officeHours {
+    display: flex;
+}
+
+.officeHoursDay div {
+    padding-right: $margin-bottom-large;
+    margin-bottom: .5rem;
+}
+
+.officeHoursTime div {
+    text-align: center;
+    margin-bottom: .5rem;
+}

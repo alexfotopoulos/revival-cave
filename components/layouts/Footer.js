@@ -6,7 +6,7 @@ export default function Footer() {
             <div className={styles.footerSection1}>
                 <div className={styles.footerSection1Sub1}>
                     <div>
-                        <p className={styles.footerCompanyName}>RVC</p>
+                        <img className={styles.footerLogo} src="logos/gold-logo.png" alt="company logo" />
                         <p>Join us on our mission to improve the quality of life <br />through routine and affordable health & wellness care.</p>
                     </div>
                     <div>

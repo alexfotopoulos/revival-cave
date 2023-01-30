@@ -7,8 +7,9 @@ import PricingDisplay from "@/components/plans/PricingDisplay";
 export default function plansPricing() {
     return (
         <div>
-            <div className={styles.navBackground}></div>
-            <Navbar />
+            <div className={styles.navBackground}>
+                <Navbar />
+            </div>
             <div className={styles.plansPage}>
                 <div className={styles.plansSection1}>
                     <h1 className={styles.plansHeading1}>Wellness Plans & Pricing</h1>
@@ -19,24 +20,24 @@ export default function plansPricing() {
                     <h2 className={styles.plansHeading2}>Wellness Plans</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate vel cumque rem, quibusdam animi harum perspiciatis deleniti et in soluta dolor error voluptatum eaque nemo.</p>
                     <div className={styles.pricingDisplayGrid}>
-                        <PricingDisplay type="Adult" price="89/mo." bestValue={true} militaryPrice="79"/>
+                        <PricingDisplay type="Adult" price="89/mo." bestValue={true} militaryPrice="79" />
                         <PricingDisplay type="Youth" price="49/mo." bestValue={true} militaryPrice={false} />
                     </div>
                     <h2 className={styles.plansHeading2}>Packages</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi recusandae, deleniti cupiditate similique laudantium nihil.</p>
                     <div className={styles.pricingDisplayGrid}>
-                        <PricingDisplay type="6 Visits" price="209" bestValue={false} militaryPrice="199"/>
+                        <PricingDisplay type="6 Visits" price="209" bestValue={false} militaryPrice="199" />
                         <PricingDisplay type="10 Visits" price="299" bestValue={false} militaryPrice={269} />
                         <PricingDisplay type="20 Visits" price="499" bestValue={false} militaryPrice={449} />
                     </div>
                     <h2 className={styles.plansHeading2}>Initial Visits</h2>
                     <div className={styles.pricingDisplayGrid}>
-                        <PricingDisplay type="Initial Visit" price="29" bestValue={false} militaryPrice="19"/>
+                        <PricingDisplay type="Initial Visit" price="29" bestValue={false} militaryPrice="19" />
                     </div>
                     <h2 className={styles.plansHeading2}>Single Visit</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div className={styles.pricingDisplayGrid}>
-                        <PricingDisplay type="Single Visit" price="45" bestValue={false} militaryPrice={false}/>
+                        <PricingDisplay type="Single Visit" price="45" bestValue={false} militaryPrice={false} />
                     </div>
                 </div>
                 <div className={styles.plansSection2}>

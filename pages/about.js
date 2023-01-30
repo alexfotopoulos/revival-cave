@@ -6,14 +6,15 @@ import styles from "../styles/pageStyles/about.module.scss";
 export default function about() {
     return (
         <div>
-            <div className={styles.navBackground}></div>
-            <Navbar />
+            <div className={styles.navBackground}>
+                <Navbar />
+            </div>
             <div className={styles.aboutPage}>
                 <div className={styles.aboutSection1}>
                     <h1 className={styles.aboutHeading1}>Our Story</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo distinctio sit velit officiis nobis natus in obcaecati facilis repellendus, maiores dolores aut amet, doloremque modi laboriosam perspiciatis. Mollitia, aliquam recusandae.
-                    Molestiae rem hic vitae eum excepturi consectetur cumque. Maxime cupiditate omnis, corrupti numquam non, itaque repudiandae reprehenderit ab cum officiis quaerat. Natus deleniti ex ut fugiat quaerat, delectus explicabo vitae.
-                    At soluta, fuga rem nemo consequuntur, recusandae obcaecati, minima alias ullam corporis itaque incidunt saepe eius totam amet maiores rerum quis. Omnis ratione iure, asperiores labore dolorem distinctio. Animi, sapiente.</p>
+                        Molestiae rem hic vitae eum excepturi consectetur cumque. Maxime cupiditate omnis, corrupti numquam non, itaque repudiandae reprehenderit ab cum officiis quaerat. Natus deleniti ex ut fugiat quaerat, delectus explicabo vitae.
+                        At soluta, fuga rem nemo consequuntur, recusandae obcaecati, minima alias ullam corporis itaque incidunt saepe eius totam amet maiores rerum quis. Omnis ratione iure, asperiores labore dolorem distinctio. Animi, sapiente.</p>
                     <h3 className={styles.aboutSectionHeading}>Mission</h3>
                     <p>Improve quality of life through routine and affordable wellness services.</p>
                     <h3 className={styles.aboutSectionHeading}>About The Revival Cave</h3>

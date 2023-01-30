@@ -2,7 +2,7 @@
 
 .nav {
     position: absolute;
-    top: 5rem;
+    top: 3rem;
     width: 100%;
     padding: 0 10%;
     display: flex;
@@ -11,8 +11,8 @@
     color: $color-white;
 }
 
-.brand {
-    font-size: $font-size-larger;
+.brand img {
+    height: 10rem;
 }
 
 .linksGroup {
@@ -54,4 +54,10 @@
 
 .iconDiv:hover {
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        padding: 0 8%;
+    }
 }

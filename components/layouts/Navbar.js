@@ -59,7 +59,7 @@ export default function Navbar() {
   return (
     <div className={styles.modalCatcher}>
       <nav className={styles.nav}>
-        <div className={styles.brand}><Link href="/">RVC</Link></div>
+        <div className={styles.brand}><Link href="/"><img src="logos/gold-logo.png" alt="company logo" /></Link></div>
         {!showModal && content}
       </nav>
       {showModal && <Modal function={handleCloseModal} />}

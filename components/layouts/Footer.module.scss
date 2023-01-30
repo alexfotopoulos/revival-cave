@@ -20,10 +20,9 @@
     margin-right: $margin-right-small;
 }
 
-.footerCompanyName {
-    font-size: $font-size-large;
+.footerLogo {
+    height: 8rem;
     margin-bottom: $margin-bottom-small;
-    color: $color-white;
 }
 
 .footerCompanyName + p {

@@ -5,8 +5,9 @@ import Footer from "@/components/layouts/Footer";
 export default function SchedulePage() {
   return (
     <div>
-      <div className={styles.navBackground}></div>
-      <Navbar />
+      <div className={styles.navBackground}>
+        <Navbar />
+      </div>
       <div className={styles.schedulePage}>
         <div className={styles.scheduleSection1}>
           <h1 className={styles.scheduleHeading1}>Schedule a Visit</h1>
