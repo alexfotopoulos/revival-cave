@@ -1,7 +1,10 @@
 @import "../../styles/sass/abstracts/variables";
+@import "../../styles/sass/abstracts/mixins";
 
 .officeHoursHeading {
+    @include heading-tertiary;
     margin-bottom: $margin-bottom-small;
+    text-align: center;
 }
 
 .officeHours {

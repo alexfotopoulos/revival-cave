@@ -3,7 +3,7 @@ import styles from "./OfficeHours.module.scss";
 export default function OfficeHours() {
     return (
         <div>
-            <h2 className={styles.officeHoursHeading}>Office Hours</h2>
+            <h3 className={styles.officeHoursHeading}>Office Hours</h3>
             <div className={styles.officeHours}>
                 <div className={styles.officeHoursDay}>
                     <div>Monday:</div>
