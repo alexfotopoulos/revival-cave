@@ -7,9 +7,7 @@ import styles from "../styles/pageStyles/about.module.scss";
 export default function about() {
     return (
         <div>
-            <div className={styles.navBackground}>
-                <Navbar />
-            </div>
+            <Navbar />
             <div className={styles.aboutPage}>
                 <div className={styles.aboutSection1}>
                     <h1 className={styles.aboutHeading1}>Our Story</h1>

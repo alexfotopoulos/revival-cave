@@ -7,9 +7,7 @@ import PricingDisplay from "@/components/plans/PricingDisplay";
 export default function plansPricing() {
     return (
         <div>
-            <div className={styles.navBackground}>
-                <Navbar />
-            </div>
+            <Navbar />
             <div className={styles.plansPage}>
                 <div className={styles.plansSection1}>
                     <h1 className={styles.plansHeading1}>Wellness Plans & Pricing</h1>

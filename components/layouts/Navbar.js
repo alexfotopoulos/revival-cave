@@ -1,11 +1,14 @@
 import styles from "./Navbar.module.scss";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 import Modal from "../utilities/Modal";
 
 export default function Navbar() {
   const [content, setContent] = useState(null);
   const [showModal, setShowModal] = useState(false);
+
+  const router = useRouter();
 
   function handleShowModal() {
     setShowModal(true);
@@ -58,7 +61,7 @@ export default function Navbar() {
 
   return (
     <div className={styles.modalCatcher}>
-      <nav className={styles.nav}>
+      <nav className={router.pathname === "/" ? `${styles.nav} ${styles.transparent}` : `${styles.nav} ${styles.colorBackground}`}>
         <div className={styles.brand}><Link href="/"><img src="logos/gold-logo.png" alt="company logo" /></Link></div>
         {!showModal && content}
       </nav>

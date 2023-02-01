@@ -7,6 +7,7 @@ export default function OfficeInfo() {
         <div className={styles.officeInfo}>
             <div className={styles.officeInfoSection}>
                 <Map />
+                {/* <p>placeholder for map during dev</p> */}
             </div>
             <div className={styles.officeInfoSection}>
                 <OfficeHours />
