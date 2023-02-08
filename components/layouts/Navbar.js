@@ -22,8 +22,8 @@ export default function Navbar() {
     if (window.innerWidth > 900) {
       setContent(
         <div className={styles.linksGroup}>
-          <Link href="/schedule"><a>Schedule a Visit</a></Link>
-          <Link href="/plans-pricing"><a>Plans & Pricing</a></Link>
+          <Link href="https://squareup.com/appointments/book/t8rdc46kpe5ehn/LKFBNGP1JXAKV/services"><a>Schedule a Visit</a></Link>
+          <Link href="/services"><a>Services Offered</a></Link>
           <Link href="/about"><a>About</a></Link>
         </div>
       )
@@ -41,8 +41,8 @@ export default function Navbar() {
       if (window.innerWidth > 900) {
         setContent(
           <div className={styles.linksGroup}>
-            <Link href="/schedule"><a>Schedule a Visit</a></Link>
-            <Link href="/plans-pricing"><a>Plans & Pricing</a></Link>
+            <Link href="https://squareup.com/appointments/book/t8rdc46kpe5ehn/LKFBNGP1JXAKV/services"><a>Schedule a Visit</a></Link>
+            <Link href="/services"><a>Services Offered</a></Link>
             <Link href="/about"><a>About</a></Link>
           </div>
         )

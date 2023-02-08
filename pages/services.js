@@ -1,4 +1,4 @@
-import styles from "../styles/pageStyles/plansPricing.module.scss";
+import styles from "../styles/pageStyles/services.module.scss";
 import Navbar from "@/components/layouts/Navbar";
 import ScheduleNow from "@/components/utilities/ScheduleNow";
 import Footer from "@/components/layouts/Footer";

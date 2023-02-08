@@ -7,7 +7,6 @@ export default function Footer() {
                 <div className={styles.footerSection1Sub1}>
                     <div>
                         <img className={styles.footerLogo} src="logos/gold-logo.png" alt="company logo" />
-                        <p>Join us on our mission to improve the quality of life <br />through routine and affordable health & wellness care.</p>
                     </div>
                     <div>
                         <div className={styles.address}>The Revival Cave</div>
@@ -59,7 +58,7 @@ export default function Footer() {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, rem exercitationem? Sapiente repellat voluptates placeat officiis quae dicta perferendis repellendus, hic sed doloribus ab voluptatum ipsam molestiae magni dolorum fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, rem exercitationem? Sapiente repellat voluptates placeat officiis quae dicta perferendis repellendus, hic sed doloribus ab voluptatum ipsam molestiae magni dolorum fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, rem exercitationem? Sapiente repellat voluptates placeat officiis quae dicta perferendis repellendus, hic sed doloribus ab voluptatum ipsam molestiae magni dolorum fuga.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, rem exercitationem? Sapiente repellat voluptates placeat officiis quae dicta perferendis repellendus, hic sed doloribus ab voluptatum ipsam molestiae magni dolorum fuga.</p>
                 </div>
                 <div className={styles.footerSection2Sub2}>
-                    <p>&copy; 2023 The Revival Cave. All Rights Reserved | Site Search | Sitemap</p>
+                    <p>&copy; 2023 The Revival Cave. Built by Alex Fotopoulos - <a href="https://alexfotopoulos.vercel.app">(alexfotopoulos.vercel.app)</a></p>
                 </div>
             </div>
         </div>

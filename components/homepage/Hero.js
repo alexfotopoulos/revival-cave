@@ -10,7 +10,7 @@ export default function Hero() {
                 <div>DON'T DO PAIN.</div>
                 <div>DO YOU.</div>
                 </h1>
-                <p>Whether you are seeking relief from everyday aches and pains or looking to maintain a healthy, active life, we can help.</p>
+                <p>With you in mind, we strive to ensure your treatment is more than your typical massage and body work experience.</p>
                 <div>
                     <Link href="/schedule"><a><Button text="Book an Appointment" /></a></Link>
                 </div>

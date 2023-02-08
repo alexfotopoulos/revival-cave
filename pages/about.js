@@ -11,9 +11,14 @@ export default function about() {
             <div className={styles.aboutPage}>
                 <div className={styles.aboutSection1}>
                     <h1 className={styles.aboutHeading1}>Our Story</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo distinctio sit velit officiis nobis natus in obcaecati facilis repellendus, maiores dolores aut amet, doloremque modi laboriosam perspiciatis. Mollitia, aliquam recusandae.
-                        Molestiae rem hic vitae eum excepturi consectetur cumque. Maxime cupiditate omnis, corrupti numquam non, itaque repudiandae reprehenderit ab cum officiis quaerat. Natus deleniti ex ut fugiat quaerat, delectus explicabo vitae.
-                        At soluta, fuga rem nemo consequuntur, recusandae obcaecati, minima alias ullam corporis itaque incidunt saepe eius totam amet maiores rerum quis. Omnis ratione iure, asperiores labore dolorem distinctio. Animi, sapiente.</p>
+                    <p>Adam fell in love with weight training at a young age of 13. By the time he attended college, he understood that receiving massage and body work regularly would help prevent injury, improve muscle growth and healing, and help deliver a better package when competing in bodybuilding.
+                    </p>
+                    <p>
+                    Throughout his fitness career, he has obtained numerous injuries, including herniated discs, tendinitis, and a ruptured pectoral muscle. Though these injuries were mentally frustrating, Adam learned how to set goals and follow rehab and body work programs to get back to what he loved best - training. With this experience, he can now use what he learned by being a student of injury to help others get through theirs.
+                    </p>
+                    <p>
+                    After competing in a bodybuilding show in 2015, Adam shortly after found another love through his injuries – yoga. Yoga broadened Adam’s fitness expertise which led to venturing into Pilates, cycling, and circuit training. With his vast amount of knowledge and experience in the fitness industry, Adam is in tune with what movements and patterns will optimize biomechanical function in your muscle tissue and joints.
+                    </p>
                     <h3 className={styles.aboutSectionHeading}>Mission</h3>
                     <p>Improve quality of life through routine and affordable wellness services.</p>
                     <h3 className={styles.aboutSectionHeading}>About The Revival Cave</h3>
