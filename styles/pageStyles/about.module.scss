@@ -7,9 +7,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 4rem;
+    font-size: $font-size-medium;
 }
 
-.aboutHeading1 {
+.aboutHeading {
     @include heading-primary;
     margin-bottom: $margin-bottom-small;
 }
@@ -17,6 +18,10 @@
 .aboutSectionHeading {
     @include heading-tertiary;
     margin: $margin-bottom-small 0;
+}
+
+.aboutSectionHeading ~ p:not(:last-child) {
+    margin-bottom: $margin-bottom-small;
 }
 
 .aboutSection1 {

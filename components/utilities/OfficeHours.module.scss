@@ -1,6 +1,12 @@
 @import "../../styles/sass/abstracts/variables";
 @import "../../styles/sass/abstracts/mixins";
 
+.officeHoursContainer {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
 .officeHoursHeading {
     @include heading-tertiary;
     margin-bottom: $margin-bottom-small;
@@ -9,7 +15,7 @@
 
 .officeHours {
     display: flex;
-    font-size: $font-size-default;
+    font-size: $font-size-medium;
 }
 
 .officeHoursDay div {

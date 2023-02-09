@@ -8,14 +8,14 @@
 }
 
 .missionSection {
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
     & h2 {
-        @include heading-tertiary;
-        display: inline-block;
+        @include heading-secondary;
+        align-self: center;
         background: linear-gradient(to right bottom, $color-primary, $color-secondary);
         color: transparent;
         background-clip: text;
@@ -25,7 +25,7 @@
 
 .missionStatement {
     @include heading-secondary;
-    font-weight: 700;
+    text-align: center;
     margin-bottom: $margin-bottom-small;
 }
 

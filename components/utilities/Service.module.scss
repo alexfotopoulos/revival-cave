@@ -1,0 +1,30 @@
+@import "../../styles/sass/abstracts/variables";
+@import "../../styles/sass/abstracts/mixins";
+
+.service {
+    border: 1px solid black;
+    border-radius: 1.3rem;
+    padding: 2rem;
+
+    display: flex;
+}
+
+.serviceDescription {
+    flex: 5;
+    margin-right: $margin-right-small;
+    border-right: 1px solid black;
+}
+
+.serviceDescription h3 {
+    @include heading-tertiary;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.servicePricing {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $font-size-large;
+}
