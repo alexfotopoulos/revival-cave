@@ -15,7 +15,7 @@ export default function Services() {
                     <div className={styles.services}>
                         {services.map(service => (
                             <div><Service title={service.title} description={service.description}
-                            price={service.price}/></div>
+                            price={service.price} key={service.id}/></div>
                         ))}
                     </div>
                 </div>
