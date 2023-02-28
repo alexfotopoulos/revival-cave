@@ -14,8 +14,8 @@ export default function Services() {
                     <h1 className={styles.servicesHeading}>Services and Treatments</h1>
                     <div className={styles.services}>
                         {services.map(service => (
-                            <div><Service title={service.title} description={service.description}
-                            price={service.price} key={service.id}/></div>
+                            <div key={service.id}><Service title={service.title} description={service.description}
+                            price={service.price}/></div>
                         ))}
                     </div>
                 </div>
