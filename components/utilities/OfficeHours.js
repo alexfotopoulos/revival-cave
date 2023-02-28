@@ -3,7 +3,7 @@ import styles from "./OfficeHours.module.scss";
 export default function OfficeHours() {
     return (
         <div className={styles.officeHoursContainer}>
-            <h3 className={styles.officeHoursHeading}>Office Hours</h3>
+            <h3 className={styles.officeHoursHeading}>Business Hours</h3>
             <div className={styles.officeHours}>
                 <div className={styles.officeHoursDay}>
                     <div>Monday:</div>
@@ -15,11 +15,11 @@ export default function OfficeHours() {
                     <div>Sunday:</div>
                 </div>
                 <div className={styles.officeHoursTime}>
-                    <div>8:00am - 8:00pm</div>
-                    <div>8:00am - 5:00pm</div>
-                    <div>8:00am - 8:00pm</div>
-                    <div>8:00am - 5:00pm</div>
-                    <div>8:00am - 8:00pm</div>
+                    <div>9:00am - 8:00pm</div>
+                    <div>9:00am - 8:00pm</div>
+                    <div>9:00am - 4:00pm</div>
+                    <div>9:00am - 4:00pm</div>
+                    <div>9:00am - 8:00pm</div>
                     <div>Closed</div>
                     <div>Closed</div>
                 </div>
