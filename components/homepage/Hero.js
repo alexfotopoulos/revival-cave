@@ -13,7 +13,7 @@ export default function Hero() {
                 </h1>
                 <p>Book now and see how Revival Cave is more than your typical massage and body work experience.</p>
                 <div>
-                    <Link href="/schedule"><a><Button text="Book an Appointment" /></a></Link>
+                    <Link href="https://squareup.com/appointments/book/t8rdc46kpe5ehn/LKFBNGP1JXAKV/services"><a><Button text="Book an Appointment" /></a></Link>
                 </div>
             </div>
         </div>
