@@ -5,6 +5,7 @@
     border: 1px solid black;
     border-radius: 1.3rem;
     padding: 2rem;
+    font-size: $font-size-medium;
 
     display: flex;
 }
@@ -16,8 +17,8 @@
 }
 
 .serviceDescription h3 {
-    @include heading-tertiary;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 500;
     margin-bottom: .5rem;
 }
 

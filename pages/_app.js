@@ -5,7 +5,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>The Revival Cave</title>
+        <title>Revival Cave</title>
         <link rel="icon" href="/logos/white-logo.png"/>
       </Head>
       <Component {...pageProps} />

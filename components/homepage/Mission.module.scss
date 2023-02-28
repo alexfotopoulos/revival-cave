@@ -24,7 +24,7 @@
 }
 
 .missionStatement {
-    @include heading-secondary;
+    font: italic $font-size-larger "Fira Sans", serif;
     text-align: center;
     margin-bottom: $margin-bottom-small;
 }

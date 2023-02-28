@@ -13,6 +13,7 @@
 .servicesHeading {
     @include heading-primary;
     margin-bottom: $margin-bottom-small;
+    text-transform: uppercase;
 }
 
 .servicesSection1 {

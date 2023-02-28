@@ -24,6 +24,7 @@ export default function OfficeHours() {
                     <div>Closed</div>
                 </div>
             </div>
+            <p className={styles.note}>* by appointment only</p>
         </div>
     )
 }

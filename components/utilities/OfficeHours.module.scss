@@ -2,9 +2,13 @@
 @import "../../styles/sass/abstracts/mixins";
 
 .officeHoursContainer {
-    background-color: white;
-    padding: 2rem;
-    border-radius: 1rem;
+    width: 80%;
+    background-color: $color-dark;
+    color: $color-white;
+    padding: 2rem 0;
+    border-radius: .3rem;
+    border: 5px solid $color-primary;
+    position: relative;
 }
 
 .officeHoursHeading {
@@ -15,7 +19,14 @@
 
 .officeHours {
     display: flex;
+    justify-content: space-evenly;
     font-size: $font-size-medium;
+    margin-bottom: $margin-bottom-small;
+}
+
+.note {
+    position: absolute;
+    left: 1rem;
 }
 
 .officeHoursDay div {
@@ -29,6 +40,9 @@
 }
 
 @media (max-width: 650px) {
+    .officeHoursContainer {
+        width: 100%;
+    }
     .officeHoursHeading {
         text-align: center
     }

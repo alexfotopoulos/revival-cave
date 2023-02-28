@@ -17,13 +17,13 @@ export default function about() {
                     </p>
                     <h3 className={styles.aboutSectionHeading}>About Adam</h3>
                     <p>
-                        An Ocala native, Adam began his fitness journey at the age of 13 after discovering his love for weight training. He competed in weightlifting competitions in high school and became a certified personal trainer while attending the Florida State University.
+                        An Ocala native, Adam began his fitness journey at the age of 13 after discovering his love for weight training. He competed in weightlifting competitions in high school and became a certified personal trainer while attending Florida State University.
                     </p>
                     <p>
                         Throughout his fitness journey, Adam incurred numerous injuries including herniated discs, tendinitis, and a ruptured pectoral muscle. Though these injuries were mentally frustrating, Adam came to learn that receiving regular massage and body work would help prevent injury, improve muscle growth and healing, and help him get back to what he loved best - training.
                     </p>
                     <p>
-                        After competing in a bodybuilding show in 2015, Adam broadened his fitness routine, incorporating yoga, Pilates, cycling, and circuit training. Each program taught him little bit more about the body, its true biomechanical function, and most importantly, the need to rest, recover and heal.
+                        After competing in a bodybuilding show in 2015, Adam broadened his fitness routine, incorporating yoga, Pilates, cycling, and circuit training. Each program taught him a little bit more about the body, its true biomechanical function, and most importantly, the need to rest, recover and heal.
                     </p>
                     <p>
                         With this vast amount of knowledge and experience in the fitness industry, Adam became a licensed massage therapist and opened the Revival Cave to help others heal and perform at their best.
