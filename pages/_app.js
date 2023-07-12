@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Revival Cave</title>
-        <link rel="icon" href="/logos/white-logo.png"/>
+        <link rel="icon" href="/logos/gold-logo.png"/>
       </Head>
       <Component {...pageProps} />
     </>)

@@ -4,9 +4,10 @@
 .hero {
     height: 100vh;
     // background-image: linear-gradient(rgb(0,0,0, .4), rgb(0,0,0, .4)), url("../../public/IMG_3405.jpg");
-    background-image: linear-gradient(rgb(0,0,0, .5), rgb(0,0,0, .5)), url("../../public/heroImage2.jpg");
+    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)),
+        url("../../public/newHero.jpeg");
+    background-position: left;
     background-size: cover;
-    background-position: top;
 }
 
 .header {
@@ -14,7 +15,7 @@
     padding: 0 10%;
     position: absolute;
     top: 40%;
-    animation: fadeIn 2s ease-out .3s;
+    animation: fadeIn 2s ease-out 0.3s;
     animation-fill-mode: backwards;
 
     & h1 {
@@ -29,6 +30,12 @@
 }
 
 @media (max-width: 600px) {
+    .hero {
+        background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+        url("../../public/newHero.jpeg");
+        background-position: 19%;
+    }
+
     .header {
         & h1 {
             font-size: 4.8rem;
