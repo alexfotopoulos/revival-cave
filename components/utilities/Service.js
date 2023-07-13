@@ -1,6 +1,7 @@
 import styles from "./Service.module.scss";
 
 export default function Service(props) {
+
     return (
         <div className={styles.service}>
             <div className={styles.serviceDescription}>

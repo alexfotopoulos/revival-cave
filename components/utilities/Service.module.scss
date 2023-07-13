@@ -2,10 +2,11 @@
 @import "../../styles/sass/abstracts/mixins";
 
 .service {
-    border: 1px solid black;
+    // border: 1px solid black;
     border-radius: 1.3rem;
     padding: 2rem;
     font-size: $font-size-medium;
+    box-shadow: $shadow-std;
 
     display: flex;
 }
@@ -19,7 +20,7 @@
 .serviceDescription h3 {
     font-size: 2.5rem;
     font-weight: 500;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 
 .servicePricing {
