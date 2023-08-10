@@ -1,7 +1,6 @@
 import Footer from "@/components/layouts/Footer";
 import Navbar from "@/components/layouts/Navbar";
 import OfficeInfo from "@/components/layouts/OfficeInfo";
-import ScheduleNow from "@/components/utilities/ScheduleNow";
 import styles from "../styles/pageStyles/about.module.scss";
 
 export default function about() {
@@ -61,9 +60,6 @@ export default function about() {
                         therapist and opened the Revival Cave to help others
                         heal and perform at their best.
                     </p>
-                </div>
-                <div className={styles.aboutSection2}>
-                    <ScheduleNow />
                 </div>
             </div>
             <OfficeInfo />

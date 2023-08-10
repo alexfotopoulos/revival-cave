@@ -3,22 +3,8 @@
 
 .schedulePage {
     padding: 0 10%;
-    margin: 6rem 0;
+    margin: 0 0 6rem 0;
+    font-size: $font-size-medium;
 }
 
-.scheduleHeading1 {
-    @include heading-primary;
-    margin-bottom: $margin-bottom-small;
-}
 
-.scheduleSectionHeading {
-    font-size: $font-size-large;
-    font-weight: 300;
-    margin: $margin-bottom-small 0;
-}
-
-@media (max-width: 900px) {
-    .navBackground {
-        height: 16vh;
-    }
-}

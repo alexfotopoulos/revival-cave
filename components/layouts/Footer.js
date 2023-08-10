@@ -7,9 +7,8 @@ export default function Footer() {
             <div className={styles.footerSection1}>
                 <img className={styles.footerLogo} src="logos/gold-logo.png" alt="company logo" />
                 <div className={styles.footerLinksGroup}>
-                    <Link href="https://squareup.com/appointments/book/t8rdc46kpe5ehn/LKFBNGP1JXAKV/services"><a className={styles.footerLink}>Schedule a Visit</a></Link>
-                    <Link href="/services"><a className={styles.footerLink}>Services Offered</a></Link>
                     <Link href="/about"><a className={styles.footerLink}>About</a></Link>
+                    <Link href="/schedule"><a className={styles.footerLink}>Schedule a Visit</a></Link>
                 </div>
                 {/* <div className={styles.footerSocialLinks}>
                     <a href="https://www.instagram.com/adamfontana92/"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
