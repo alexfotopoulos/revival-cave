@@ -84,46 +84,42 @@ export default function about() {
                         />
                         <div className={styles.aboutBio}>
                             <p className={styles.bioParagraph}>
-                                1st Generation American, Florida native from
-                                Saint Petersburg. Andy begins his fitness
-                                journey growing up through school sports such as
-                                soccer, track, cross country, and volleyball.
-                                Also, while growing up Andy was a very active
-                                kid. He fell in love with martial arts at a
-                                young age. Through the years he has trained and
-                                competed in such disciplines as Judo, Muay Thai,
-                                Boxing, Tang Soo Do, Jiujitsu, Kungfu, aikido,
-                                and Hapkido.
+                                A 1st Generation American, Florida native from
+                                Saint Petersburg, Andy began his fitness journey
+                                growing up doing school sports such as soccer,
+                                track, cross country, and volleyball. While
+                                growing up Andy was a very active kid. He fell
+                                in love with martial arts at a young age and
+                                through the years has trained and competed in
+                                disciplines such as Judo, Muay Thai, Boxing,
+                                Tang Soo Do, Jiujitsu, Kungfu, Aikido, and
+                                Hapkido.
                             </p>
                             <p className={styles.bioParagraph}>
                                 Andy was in ROTC in high school and entered the
                                 United States Marine Corps after graduation.
                                 Joining the service tested his mental fortitude
                                 and physical capabilities in stressful
-                                conditions. While in the service he was a
+                                conditions. While in the service, he was a
                                 mortarman with 1/6 Weapons Company stationed in
-                                Camp Lejeune in Jacksonville North Carolina.
+                                Camp Lejeune in Jacksonville, North Carolina.
                             </p>
                             <p className={styles.bioParagraph}>
-                                After his time in the service, He fell in love
-                                with fitness. Pushing his limits of always
-                                striving to see what his peak performance was.
-                                He competed in various Judo tournaments and
-                                Jiujitsu tournaments in his later years. From
-                                sustaining so many injuries from the service and
-                                competitions, he switched gears and decided to
-                                dedicate his purpose to healing. After attending
-                                massage school and enrolling in nursing school,
-                                He found purpose in healing others.
+                                After his time in the service, he fell in love
+                                with fitness, pushing his limits to see what his
+                                peak performance was. He competed in various
+                                Judo and Jiujitsu tournaments in his later
+                                years. After sustaining many injuries from the
+                                service and competitions, he switched gears and
+                                decided to dedicate his purpose to healing others.
                             </p>
                             <p className={styles.bioParagraph}>
-                                Nowadays Andy spends his days educating,
+                                Nowadays, Andy spends his days educating,
                                 healing, and changing lives one person at a
                                 time. Outside of competitions, training, and
-                                healing. You can find Andy outdoors, hitting
-                                various trails, on the water. Kayaking, boating,
-                                diving, tubing, and fishing. He loves exploring
-                                different places and conditioning training.
+                                healing, you can find Andy outdoors, hitting
+                                various trails or on the water kayaking, boating,
+                                diving, tubing, and fishing.
                             </p>
                             <p className={styles.bioParagraph}>
                                 With all his years of experience in the
