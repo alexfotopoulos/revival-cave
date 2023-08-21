@@ -4,7 +4,7 @@
 .hero {
     height: 100vh;
     // background-image: linear-gradient(rgb(0,0,0, .4), rgb(0,0,0, .4)), url("../../public/IMG_3405.jpg");
-    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)),
+    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
         url("../../../public/heroImage.jpeg");
     background-position: left;
     background-size: cover;
@@ -31,8 +31,9 @@
 
 @media (max-width: 600px) {
     .hero {
-        background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
-        url("../../../public/heroImage.jpeg");
+        background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+        url("../../../public/heroImageMobile.jpeg");
+        background-position: top;
         background-position: 19%;
     }
 

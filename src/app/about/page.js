@@ -30,7 +30,7 @@ export default function about() {
                     <h3 className={styles.aboutSectionHeading}>About Adam</h3>
                     <div className={styles.aboutIndividual}>
                         <Image
-                            src="/AdamHeadshot.jpeg"
+                            src="/AdamHeadshotNew.jpeg"
                             height={500}
                             width={500}
                             alt="photo of Adam"
