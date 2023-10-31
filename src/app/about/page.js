@@ -79,7 +79,7 @@ export default function about() {
                             src="/AndyHeadshot.jpg"
                             height={500}
                             width={500}
-                            alt="photo of Adam"
+                            alt="photo of Andy"
                             className={styles.aboutImageAndy}
                         />
                         <div className={styles.aboutBio}>
@@ -127,6 +127,30 @@ export default function about() {
                                 here to provide the best attentive treatment for
                                 his clients to help them on their wellness
                                 journey.
+                            </p>
+                        </div>
+                    </div>
+                    <h3 className={styles.aboutSectionHeading}>About Tucker</h3>
+                    <div className={styles.aboutIndividual}>
+                        {/* <Image
+                            src="/"
+                            height={500}
+                            width={500}
+                            alt="photo of Tucker"
+                            className={styles.aboutImageAndy}
+                        /> */}
+                        <div className={styles.aboutBio}>
+                            <p className={styles.bioParagraph}>
+                            Tucker’s adventure into the world of massage therapy began as a personal quest for healing. Struggling with chronic pain and stress, he sought alternative solutions to traditional medicine. In this pursuit, he discovered the profound therapeutic benefits of meditation, breath work and massage. It not only alleviated his physical discomfort but also provided a sanctuary for emotional and mental restoration. This transformative experience ignited a deep passion within him, leading him to embark on a remarkable journey of becoming a skilled and empathetic massage therapist.
+                            </p>
+                            <p className={styles.bioParagraph}>
+                            Tucker’s training was extensive, including both traditional massage techniques and holistic approaches to wellness. He immersed himself in the study of anatomy and the intricacies of human musculature, understanding that the body's intricacies are like a puzzle waiting to be unlocked. Throughout his training, he developed a unique style that combines the art and science of massage, making each session a personalized and therapeutic experience.
+                            </p>
+                            <p className={styles.bioParagraph}>
+                                
+                            </p>
+                            <p className={styles.bioParagraph}>
+                            Today, as a licensed and certified massage therapist, Tucker is dedicated to helping others on their own healing journeys. His mission is to provide a safe and nurturing space for his clients to relax, rejuvenate, and release the tensions that weigh them down. With a kind and empathetic touch, Tucker not only relieves physical discomfort but also strives to create a holistic sense of well-being. He believes that true healing goes beyond the physical realm, encompassing the emotional and spiritual aspects of life.
                             </p>
                         </div>
                     </div>
