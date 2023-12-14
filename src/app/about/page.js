@@ -76,7 +76,7 @@ export default function about() {
                     <h3 className={styles.aboutSectionHeading}>About Andy</h3>
                     <div className={styles.aboutIndividual}>
                         <Image
-                            src="/AndyHeadshot.jpg"
+                            src="/AndyHeadshot2.jpeg"
                             height={500}
                             width={500}
                             alt="photo of Andy"
@@ -132,13 +132,13 @@ export default function about() {
                     </div>
                     <h3 className={styles.aboutSectionHeading}>About Tucker</h3>
                     <div className={styles.aboutIndividual}>
-                        {/* <Image
-                            src="/"
+                        <Image
+                            src="/TuckerHeadshot.jpeg"
                             height={500}
                             width={500}
                             alt="photo of Tucker"
                             className={styles.aboutImageAndy}
-                        /> */}
+                        />
                         <div className={styles.aboutBio}>
                             <p className={styles.bioParagraph}>
                             Tucker’s adventure into the world of massage therapy began as a personal quest for healing. Struggling with chronic pain and stress, he sought alternative solutions to traditional medicine. In this pursuit, he discovered the profound therapeutic benefits of meditation, breath work and massage. It not only alleviated his physical discomfort but also provided a sanctuary for emotional and mental restoration. This transformative experience ignited a deep passion within him, leading him to embark on a remarkable journey of becoming a skilled and empathetic massage therapist.

@@ -2,8 +2,7 @@
 @import "../../../styles/sass/abstracts/animations";
 
 .hero {
-    height: 100vh;
-    // background-image: linear-gradient(rgb(0,0,0, .4), rgb(0,0,0, .4)), url("../../public/IMG_3405.jpg");
+    height: calc(100vh - 9rem);
     background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
         url("../../../public/heroImage.jpeg");
     background-position: left;
@@ -14,7 +13,7 @@
     color: $color-white;
     padding: 0 10%;
     position: absolute;
-    top: 40%;
+    top: 48%;
     animation: fadeIn 2s ease-out 0.3s;
     animation-fill-mode: backwards;
 
@@ -32,9 +31,9 @@
 @media (max-width: 600px) {
     .hero {
         background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
-        url("../../../public/heroImageMobile.jpeg");
+        url("../../../public/heroImageMobile2.jpeg");
         background-position: top;
-        background-position: 19%;
+        background-position: 38%;
     }
 
     .header {

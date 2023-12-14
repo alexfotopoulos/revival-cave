@@ -61,8 +61,8 @@ export default function Navbar() {
 
   return (
     <div className={styles.modalCatcher}>
-      <nav className={pathname === "/" ? `${styles.nav} ${styles.transparent}` : `${styles.nav} ${styles.colorBackground}`}>
-        <div className={styles.brand}><Link href="/"><img src="logos/gold-logo.png" alt="company logo" /></Link></div>
+      <nav className={styles.permanentNav}>
+        <div className={styles.newBrand}><Link href="/"><img src="logos/gold-logo.png" alt="company logo" /></Link></div>
         {!showModal && content}
       </nav>
       {showModal && <Modal function={handleCloseModal} />}
