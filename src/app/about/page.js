@@ -73,7 +73,7 @@ export default function about() {
                             </p>
                         </div>
                     </div>
-                    <h3 className={styles.aboutSectionHeading}>About Andy</h3>
+                    {/* <h3 className={styles.aboutSectionHeading}>About Andy</h3>
                     <div className={styles.aboutIndividual}>
                         <Image
                             src="/AndyHeadshot2.jpeg"
@@ -129,7 +129,7 @@ export default function about() {
                                 journey.
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <OfficeInfo />

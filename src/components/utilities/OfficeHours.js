@@ -15,12 +15,12 @@ export default function OfficeHours() {
                     <div>Sunday:</div>
                 </div>
                 <div className={styles.officeHoursTime}>
-                    <div>9:00am - 9:00pm</div>
-                    <div>9:00am - 9:00pm</div>
-                    <div>9:00am - 9:00pm</div>
-                    <div>9:00am - 9:00pm</div>
-                    <div>9:00am - 9:00pm</div>
-                    <div>9:00am - 9:00pm</div>
+                    <div>9:00am - 10:00pm</div>
+                    <div>9:00am - 10:00pm</div>
+                    <div>9:00am - 10:00pm</div>
+                    <div>9:00am - 10:00pm</div>
+                    <div>9:00am - 10:00pm</div>
+                    <div>9:00am - 10:00pm</div>
                     <div>Closed</div>
                 </div>
             </div>
