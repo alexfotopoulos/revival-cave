@@ -6,7 +6,7 @@ export default function Map() {
             loading="lazy"
             allowFullScreen
             referrerPolicy="no-referrer-when-downgrade"
-            src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY}&q=3310WEmpedradoStTampa,FL33629&zoom=13`}
+            src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY}&q=306SBoulevardTampa,FL33606&zoom=13`}
         >
         </iframe>
     )

@@ -28,7 +28,8 @@ export default function Footer() {
                 {/* </div> */}
             </div>
             <div className={styles.footerSection2}>
-                <p>&copy; 2023 The Revival Cave</p>
+                <p>&copy; 2024 The Revival Cave</p>
+                <p>License #MM44483</p>
             </div>
         </div>
     );
