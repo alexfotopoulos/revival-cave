@@ -15,6 +15,10 @@ export default function Hero() {
                 <div>
                     <Link href="/schedule"><Button text="Book an Appointment" /></Link>
                 </div>
+                <div className={styles.iconContainer}>
+                    <img src="/icons/phoneIcon.svg" alt="phone" />
+                    <span>(813) 695-4394</span>
+                </div>
             </div>
         </div>
     )

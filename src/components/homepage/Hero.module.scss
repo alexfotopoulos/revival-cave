@@ -28,6 +28,16 @@
     }
 }
 
+.iconContainer {
+    display: flex;
+    align-items: center;
+    margin-top: $margin-bottom-smaller;
+
+    & span {
+        margin-left: $margin-bottom-smaller
+    };
+}
+
 @media (max-width: 600px) {
     .hero {
         height: calc(100vh - 20rem);
