@@ -1,0 +1,23 @@
+.HeadShot {
+  width: 35rem;
+  height: 35rem;
+  position: relative;
+  background-size:cover;
+  margin: 0 auto;
+}
+
+.HeadShotImageName {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 10;
+}
+
+@media (max-width: 40rem) {
+  .HeadShot {
+    width: 40rem;
+    height: 40rem;
+  }
+}
