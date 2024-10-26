@@ -2,7 +2,6 @@ import styles from "./HeadShot.module.scss";
 import Image from "next/image";
 
 export default function HeadShot(props) {
-  let imageBottom = props.pushImageUp ? "bottom" : "";
   return (
     <a href={`/about/${props.slug}`}>
       <div className={styles.HeadShot}>
@@ -13,7 +12,7 @@ export default function HeadShot(props) {
           className={styles.HeadShotImage}
           alt={`photo of ${props.name}`}
           priority
-          style={{objectPosition: props.pushImageUp ? "bottom" : "top"}}
+          style={{ objectPosition: props.pushImageUp ? "bottom" : "top" }}
         />
         <p className={styles.HeadShotImageName}>{props.name}</p>
       </div>
