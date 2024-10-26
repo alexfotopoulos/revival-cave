@@ -2,8 +2,11 @@
   width: 35rem;
   height: 35rem;
   position: relative;
-  background-size:cover;
   margin: 0 auto;
+}
+
+.HeadShotImage {
+  filter: brightness(70%);
 }
 
 .HeadShotImageName {
