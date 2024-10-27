@@ -1,95 +1,79 @@
-@import "../../../styles/sass/abstracts/variables";
-
-// .nav {
-//     width: 100%;
-//     padding: 0 5%;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     color: $color-white;
-// }
+@import "@/styles/sass/abstracts/variables";
 
 .permanentNav {
-    width: 100%;
-    padding: 0 5%;
-    height: 9rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: $color-white;
-    background-color: black;
+  width: 100%;
+  padding: 0 5%;
+  height: 9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $color-white;
+  background-color: black;
 }
 
 .transparent {
-    background-color: transparent;
-    position: absolute;
-    top: 1.5rem;
+  background-color: transparent;
+  position: absolute;
+  top: 1.5rem;
 }
 
 .colorBackground {
-    padding: 1.5rem 5%;
-    background-color: $color-dark;
+  padding: 1.5rem 5%;
+  background-color: $color-dark;
 }
 
-// .brand img {
-//     height: 12rem;
-// }
-
-.newBrand img {
-    height: 8rem;
+.brand img {
+  height: 8rem;
 }
 
 .brand:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .linksGroup {
-    font-size: 2.1rem;
+  font-size: 2.1rem;
 
-    & a:not(:last-child) {
-        margin-right: $margin-right-small;
-    }
+  & a:not(:last-child) {
+    margin-right: $margin-small;
+  }
 }
 
 .navIcon {
-    position: relative;
+  position: relative;
 }
 
 .navIcon,
 .navIcon::before,
-.navIcon::after  {
-    width: 3rem;
-    height: .2rem;
-    background-color: $color-white;
-    display: inline-block;
+.navIcon::after {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: $color-white;
+  display: inline-block;
 }
 
 .navIcon::before,
 .navIcon::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    transition: all .2s;
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: all 0.2s;
 }
 
 .navIcon::before {
-    top: -.8rem;
+  top: -0.8rem;
 }
 
 .navIcon::after {
-    top: .8rem;
+  top: 0.8rem;
 }
 
 .iconDiv:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
-    .colorBackground {
-        padding: 1.5rem 5%;
-        background-color: $color-dark;
-    }
-    .brand img {
-        height: 12rem;
-    }
+  .colorBackground {
+    padding: 1.5rem 5%;
+    background-color: $color-dark;
+  }
 }

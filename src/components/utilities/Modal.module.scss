@@ -1,18 +1,17 @@
-@import "../../../styles/sass/abstracts/variables";
-@import "../../../styles/sass/abstracts/animations";
-
+@import "@/styles/sass/abstracts/variables";
+@import "@/styles/sass/abstracts/animations";
 
 .modal {
-    position: fixed;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
-    overflow: hidden;
-    color: $color-white;
-    animation: fadeIn .3s ease-out .3s;
-    animation-fill-mode: backwards;
-  }
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  overflow: hidden;
+  color: $color-white;
+  animation: fadeIn 0.3s ease-out 0.3s;
+  animation-fill-mode: backwards;
+}
 
 .backdrop {
   position: fixed;
@@ -22,31 +21,31 @@
   height: 100vh;
   z-index: 10;
   background: rgba(0, 0, 0, 0.85);
-  animation: moveInLeft .3s ease-out;
+  animation: moveInLeft 0.3s ease-out;
 }
 
 .closeModal {
-    position: absolute;
-    top: 5rem;
-    right: 5rem;
-    z-index: 100;
-    color: $color-white;
-    font-size: 3rem;
-    animation: fadeIn .3s ease-out .3s;
-    animation-fill-mode: backwards;
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+  z-index: 100;
+  color: $color-white;
+  font-size: 3rem;
+  animation: fadeIn 0.3s ease-out 0.3s;
+  animation-fill-mode: backwards;
 
-    &:hover {
-      cursor: pointer;
-    }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .linksGroup {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: $font-size-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: $font-size-large;
 }
 
 .modalLink:not(:last-child) {
-    margin-bottom: $margin-bottom-small;
+  margin-bottom: $margin-small;
 }

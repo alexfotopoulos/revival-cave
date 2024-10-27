@@ -1,7 +1,7 @@
 import OfficeInfo from "@/src/components/layouts/OfficeInfo";
-import styles from "../../../styles/pageStyles/about.module.scss";
+import styles from "@/styles/pageStyles/about.module.scss";
 import HeadShot from "@/src/components/about/HeadShot";
-import {therapists} from "../../../helpers/therapists"
+import {therapists} from "@/helpers/therapists"
 
 export default function about() {
     return (

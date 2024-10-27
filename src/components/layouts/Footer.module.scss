@@ -1,49 +1,47 @@
-@import "../../../styles/sass/abstracts/variables";
+@import "@/styles/sass/abstracts/variables";
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    background-color: $color-dark;
-    color: $color-light-grey;
-    padding: 6rem 10% 3rem;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-dark;
+  color: $color-light-grey;
+  padding: 6rem 10% 3rem;
 }
 
 .footerSection1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: $margin-bottom-smaller;
-    padding-bottom: $margin-bottom-small;
-    border-bottom: 1px solid $color-light-grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: $margin-smaller;
+  padding-bottom: $margin-small;
+  border-bottom: 1px solid $color-light-grey;
 }
 
-
 .footerLogo {
-    height: 8rem;
-    margin-bottom: $margin-bottom-small
+  height: 8rem;
+  margin-bottom: $margin-small;
 }
 
 .footerLinksGroup {
-    margin-bottom: $margin-bottom-small;
+  margin-bottom: $margin-small;
 }
 
 .footerLink {
-    margin-right: $margin-right-small;
+  margin-right: $margin-small;
 }
 
 .footerSocialLinks {
-    min-width: 10rem;
-    display: flex;
-    justify-content: center;
+  min-width: 10rem;
+  display: flex;
+  justify-content: center;
 }
 
 .footerSection2 {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: $margin-bottom-medium;
-    font-size: $font-size-default;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: $margin-medium;
+  font-size: $font-size-default;
 }
 
 @media (max-width: 650px) {
-
 }

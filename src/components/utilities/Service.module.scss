@@ -1,32 +1,31 @@
-@import "../../../styles/sass/abstracts/variables";
-@import "../../../styles/sass/abstracts/mixins";
+@import "@/styles/sass/abstracts/variables";
+@import "@/styles/sass/abstracts/mixins";
 
 .service {
-    // border: 1px solid black;
-    border-radius: 1.3rem;
-    padding: 2rem;
-    font-size: $font-size-medium;
-    box-shadow: $shadow-std;
+  border-radius: 1.3rem;
+  padding: 2rem;
+  font-size: $font-size-medium;
+  box-shadow: $shadow-std;
 
-    display: flex;
+  display: flex;
 }
 
 .serviceDescription {
-    flex: 5;
-    margin-right: $margin-right-small;
-    border-right: 1px solid black;
+  flex: 5;
+  margin-right: $margin-small;
+  border-right: 1px solid black;
 }
 
 .serviceDescription h3 {
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 
 .servicePricing {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: $font-size-large;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: $font-size-large;
 }

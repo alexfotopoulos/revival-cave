@@ -6,7 +6,6 @@ export default function Mission() {
             <div className={styles.missionSection}>
                 <h2>OUR MISSION</h2>
                 <p className={styles.missionStatement}>We strive to create a personalized experience for each individual client by combining great body work with exceptional hospitality.</p>
-                {/* <p>With you in mind, our goal is to create a personalized experience for each individual client combining great body work with exceptional hospitality</p> */}
             </div>
         </div>
     )

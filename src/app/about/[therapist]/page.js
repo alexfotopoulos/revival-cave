@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "../../../../styles/pageStyles/therapist.module.scss";
+import styles from "@/styles/pageStyles/therapist.module.scss";
 import Image from "next/image";
 import { therapists } from "@/helpers/therapists";
 import { useParams } from "next/navigation";

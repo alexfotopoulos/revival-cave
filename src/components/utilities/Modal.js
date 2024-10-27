@@ -2,6 +2,8 @@ import styles from "./Modal.module.scss";
 import Link from "next/link";
 
 export default function Modal(props) {
+
+    //function to handle click to close modal
     function handleClick() {
         props.function();
     }
@@ -16,5 +18,5 @@ export default function Modal(props) {
                 </div>
             </div>
         </div>
-    )
+    );
 }

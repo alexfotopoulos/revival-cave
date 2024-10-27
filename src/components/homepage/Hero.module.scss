@@ -2,62 +2,62 @@
 @import "../../../styles/sass/abstracts/animations";
 
 .hero {
-    height: calc(100vh - 9rem);
-    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
-        url("../../../public/heroImage.jpeg");
-    background-position: left;
-    background-size: cover;
+  height: calc(100vh - 9rem);
+  background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+    url("../../../public/heroImage.jpeg");
+  background-position: left;
+  background-size: cover;
 }
 
 .header {
-    color: $color-white;
-    padding: 0 10%;
-    position: absolute;
-    top: 48%;
-    animation: fadeIn 2s ease-out 0.3s;
-    animation-fill-mode: backwards;
+  color: $color-white;
+  padding: 0 10%;
+  position: absolute;
+  top: 48%;
+  animation: fadeIn 2s ease-out 0.3s;
+  animation-fill-mode: backwards;
 
-    & h1 {
-        font-size: 6rem;
-        margin-bottom: $margin-bottom-small;
-    }
+  & h1 {
+    font-size: 6rem;
+    margin-bottom: $margin-small;
+  }
 
-    & p {
-        margin-bottom: $margin-bottom-small;
-        max-width: 50%;
-    }
+  & p {
+    margin-bottom: $margin-small;
+    max-width: 50%;
+  }
 }
 
 .iconContainer {
-    display: flex;
-    align-items: center;
-    margin-top: $margin-bottom-smaller;
+  display: flex;
+  align-items: center;
+  margin-top: $margin-smaller;
 
-    & span {
-        margin-left: $margin-bottom-smaller
-    };
+  & span {
+    margin-left: $margin-smaller;
+  }
 }
 
 @media (max-width: 600px) {
-    .hero {
-        height: calc(100vh - 20rem);
-        background-position: 10%;
-    }
+  .hero {
+    height: calc(100vh - 20rem);
+    background-position: 10%;
+  }
 
-    //for when Andy comes back
-    // .hero {
-    //     background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
-    //     url("../../../public/heroImageMobile.jpeg");
-    //     background-position: top;
-    //     background-position: 38%;
-    // }
+  //for when Andy comes back
+  // .hero {
+  //     background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+  //     url("../../../public/heroImageMobile.jpeg");
+  //     background-position: top;
+  //     background-position: 38%;
+  // }
 
-    .header {
-        & h1 {
-            font-size: 4.8rem;
-        }
-        & p {
-            max-width: 90%;
-        }
+  .header {
+    & h1 {
+      font-size: 4.8rem;
     }
+    & p {
+      max-width: 90%;
+    }
+  }
 }

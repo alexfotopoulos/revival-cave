@@ -2,51 +2,46 @@
 @import "../../../styles/sass/abstracts/mixins";
 
 .mission {
-    padding: 10rem 10%;
-    display: flex;
-    justify-content: space-between;
+  padding: 10rem 10%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .missionSection {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    & h2 {
-        @include heading-secondary;
-        align-self: center;
-        background: linear-gradient(to right bottom, $color-primary, $color-secondary);
-        color: transparent;
-        background-clip: text;
-        margin-bottom: $margin-bottom-small;
-    }
+  & h2 {
+    @include heading-secondary;
+    align-self: center;
+    background: linear-gradient(
+      to right bottom,
+      $color-primary,
+      $color-secondary
+    );
+    color: transparent;
+    background-clip: text;
+    margin-bottom: $margin-small;
+  }
 }
 
 .missionStatement {
-    font: italic $font-size-larger "Fira Sans", serif;
-    text-align: center;
-    margin-bottom: $margin-bottom-small;
-}
-
-.missionList {
-    list-style: none;
-    font-size: $font-size-medium;
-
-    & li:not(:last-child) {
-        margin-bottom: $margin-bottom-smaller;
-    }
+  font: italic $font-size-larger "Fira Sans", serif;
+  text-align: center;
+  margin-bottom: $margin-small;
 }
 
 @media (max-width: 650px) {
-    .mission {
-        flex-direction: column;
-    }
-    .missionSection {
-        width: 100%;
+  .mission {
+    flex-direction: column;
+  }
+  .missionSection {
+    width: 100%;
 
-        &:not(:last-child) {
-            margin-bottom: $margin-bottom-medium;
-        }
+    &:not(:last-child) {
+      margin-bottom: $margin-medium;
     }
+  }
 }

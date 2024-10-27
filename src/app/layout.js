@@ -1,4 +1,4 @@
-import "../../styles/globals.scss";
+import "@/styles/globals.scss";
 import Navbar from "../components/layouts/Navbar";
 import Footer from "../components/layouts/Footer";
 
