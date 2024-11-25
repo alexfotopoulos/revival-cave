@@ -44,13 +44,12 @@
     background-position: 10%;
   }
 
-  //for when Andy comes back
-  // .hero {
-  //     background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
-  //     url("../../../public/heroImageMobile.jpeg");
-  //     background-position: top;
-  //     background-position: 38%;
-  // }
+  .hero {
+      background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
+      url("../../../public/heroImageMobile.jpeg");
+      background-position: top;
+      background-position: 38%;
+  }
 
   .header {
     & h1 {

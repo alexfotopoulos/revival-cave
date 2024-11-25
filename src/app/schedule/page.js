@@ -5,12 +5,12 @@ import { useEffect, useState } from "react";
 
 export default function Schedule() {
     //state to set initial iframe height
-    const [iframeHeight, setIframeHeight] = useState(1600);
+    const [iframeHeight, setIframeHeight] = useState(2850);
 
     //check screen width of initial render to determine iframeHeight
     useEffect(() => {
         if (window.innerWidth > 700) {
-            setIframeHeight(1150);
+            setIframeHeight(1930);
         }
     }, []);
 
@@ -18,9 +18,9 @@ export default function Schedule() {
     useEffect(() => {
         function handleResize() {
             if (window.innerWidth > 700) {
-                setIframeHeight(1150);
+                setIframeHeight(1930);
             } else {
-                setIframeHeight(1600);
+                setIframeHeight(2850);
             }
         }
         window.addEventListener("resize", handleResize);
