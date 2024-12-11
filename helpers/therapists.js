@@ -32,4 +32,12 @@ export const therapists = [
     pushImageUp: true,
     bio: ["Father of two, Alek lived in New York, California, and North Carolina before moving to Tampa, FL in 2017. Alek's love for wrestling and weightlifting as a teen became his gateway to finding his passion in the health and wellness industry.", "Following his dreams, Alek became a certified personal trainer, coaching clients to live a healthier lifestyle. With this experience, as well as flirting with an office job for a few years, Alek learned first-hand what hard labor can do to our bodies, and how even office environments can take a toll on our mental and physical health.", "After becoming a father in 2020 during a global pandemic, stress was at an all-time high. Alek began to take health and wellness to a new level. He knew he wanted to be as healthy and strong as possible for his family. He became a Licensed Massage Therapist to help others understand the power of self-care. His goal is to help others feel revived and empowered both mentally and physically so clients can continue to be their best self they can be!"]
   },
+  {
+    id: 5,
+    name: "SANDY",
+    slug: "sandy",
+    image: "/SandyHeadshot.jpeg",
+    pushImageUp: false,
+    bio: ["Meet Sandy! Raised in Florida, Sandy was first introduced to massage therapy through her cousin Andy, Revival Cave's General Manager. While looking for her passion, Sandy wanted to serve people in a way that would help them heal, leading her to enroll in massage therapist school (Cortiva Graduate '23). While attending Cortiva, Sandy became classmates with Adam, Revival Cave's Owner. Adam began to practice and learn with Sandy during this time as Sandy gained an interest in using IASTM (Instrument Assisted Soft Tissue Mobilization) tools, bringing them to class to work on Adam's tendonitis injury. In Sandy's free time she loves to write, draw, and express herself by creating different mediums of art."]
+  },
 ]
