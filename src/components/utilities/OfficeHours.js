@@ -21,7 +21,7 @@ export default function OfficeHours() {
                     <div>9:00am - 10:00pm</div>
                     <div>9:00am - 10:00pm</div>
                     <div>9:00am - 10:00pm</div>
-                    <div>Closed</div>
+                    <div>9:00am - 5:00pm</div>
                 </div>
             </div>
             <p className={styles.note}>* by appointment only</p>

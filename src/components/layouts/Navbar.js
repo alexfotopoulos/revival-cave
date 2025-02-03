@@ -22,7 +22,7 @@ export default function Navbar() {
       setContent(
         <div className={styles.linksGroup}>
           <Link href="/about">About</Link>
-          <Link href="/schedule">Schedule a Visit</Link>
+          <a href="/schedule">Schedule a Visit</a>
         </div>
       )
     } else {
@@ -41,7 +41,7 @@ export default function Navbar() {
         setContent(
           <div className={styles.linksGroup}>
             <Link href="/about">About</Link>
-            <Link href="/schedule">Schedule a Visit</Link>
+            <a href="/schedule">Schedule a Visit</a>
           </div>
         )
       } else {

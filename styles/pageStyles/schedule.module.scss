@@ -3,8 +3,13 @@
 
 .schedulePage {
     padding: 0 10%;
-    margin: 0 0 6rem 0;
+    margin: 2rem 0;
     font-size: $font-size-medium;
+    min-height: 55vh;
+
+    @media(max-width: 450px) {
+        padding: 0 2%;
+    }
 }
 
 

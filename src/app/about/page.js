@@ -1,9 +1,31 @@
+"use client";
+
 import OfficeInfo from "@/src/components/layouts/OfficeInfo";
 import styles from "@/styles/pageStyles/about.module.scss";
 import HeadShot from "@/src/components/about/HeadShot";
-import {therapists} from "@/helpers/therapists"
+import { therapists } from "@/helpers/therapists";
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function about() {
+
+    //initialize router
+    const router = useRouter();
+
+    //useEffect to force hard reload if user navigates back to /schedule
+    useEffect(() => {
+        //function to catch the popstate event
+        const handlePopState = (event) => {
+            //if the new pathname is /schedule
+            if (window.location.pathname === "/schedule") {
+                //force hard reload
+                window.location.assign("/schedule");
+            }
+        };
+
+        window.addEventListener("popstate", handlePopState);
+    }, []);
+
     return (
         <div>
             <div className={styles.aboutPage}>
@@ -28,7 +50,7 @@ export default function about() {
                     </p>
                     <h3 className={styles.aboutSectionHeading}>Meet our Massage Therapists</h3>
                     <div className={styles.headshotContainer}>
-                      {therapists.map(t => <HeadShot key={t.name} {...t}/>)}
+                        {therapists.map(t => <HeadShot key={t.name} {...t} />)}
                     </div>
                 </div>
             </div>

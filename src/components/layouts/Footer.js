@@ -14,9 +14,9 @@ export default function Footer() {
                     <Link href="/about" className={styles.footerLink}>
                         About
                     </Link>
-                    <Link href="/schedule" className={styles.footerLink}>
+                    <a href="/schedule" className={styles.footerLink}>
                         Schedule a Visit
-                    </Link>
+                    </a>
                 </div>
                 {/* <div className={styles.footerSocialLinks}>
                     <a href="https://www.instagram.com/adamfontana92/"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
@@ -28,7 +28,7 @@ export default function Footer() {
                 {/* </div> */}
             </div>
             <div className={styles.footerSection2}>
-                <p>&copy; 2024 The Revival Cave</p>
+                <p>&copy; 2025 The Revival Cave</p>
                 <p>License #MM44483</p>
             </div>
         </div>

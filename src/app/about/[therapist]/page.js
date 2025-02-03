@@ -34,6 +34,20 @@ export default function Therapist() {
     }
   }, []);
 
+  //useEffect to force hard reload if user navigates back to /schedule
+  useEffect(() => {
+    //function to catch the popstate event
+    const handlePopState = (event) => {
+      //if the new pathname is /schedule
+      if (window.location.pathname === "/schedule") {
+        //force hard reload
+        window.location.assign("/schedule");
+      }
+    };
+
+    window.addEventListener("popstate", handlePopState);
+  }, []);
+
   return (
     <div className={styles.therapistPage}>
       <div className={styles.therapistSection1}>
@@ -42,10 +56,10 @@ export default function Therapist() {
           <div className={styles.therapistHeadingContainer}>
             <h1 className={styles.therapistHeading}>{therapist.name}</h1>
             <Link href="/about">
-            <div style={{ display: "flex"}}>
-              <LeftArrow />
-              <span className={styles.backLink}>Back</span>
-            </div>
+              <div style={{ display: "flex" }}>
+                <LeftArrow />
+                <span className={styles.backLink}>Back</span>
+              </div>
             </Link>
           </div>
           <div className={styles.bioContainer}>
@@ -58,7 +72,7 @@ export default function Therapist() {
                 priority
               />
             </div>
-            <div>{therapist.bio.map((b, idx) => <p key={idx}className={styles.bioParagraph}>{b}</p>)}</div>
+            <div>{therapist.bio.map((b, idx) => <p key={idx} className={styles.bioParagraph}>{b}</p>)}</div>
           </div>
         </div>}
       </div>
