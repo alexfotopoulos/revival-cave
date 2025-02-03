@@ -5,12 +5,8 @@ import styles from "@/styles/pageStyles/about.module.scss";
 import HeadShot from "@/src/components/about/HeadShot";
 import { therapists } from "@/helpers/therapists";
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
 
-export default function about() {
-
-    //initialize router
-    const router = useRouter();
+export default function About() {
 
     //useEffect to force hard reload if user navigates back to /schedule
     useEffect(() => {
