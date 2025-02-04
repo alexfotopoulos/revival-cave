@@ -34,20 +34,6 @@ export default function Therapist() {
     }
   }, []);
 
-  //useEffect to force hard reload if user navigates back to /schedule
-  useEffect(() => {
-    //function to catch the popstate event
-    const handlePopState = (event) => {
-      //if the new pathname is /schedule
-      if (window.location.pathname === "/schedule") {
-        //force hard reload
-        window.location.assign("/schedule");
-      }
-    };
-
-    window.addEventListener("popstate", handlePopState);
-  }, []);
-
   return (
     <div className={styles.therapistPage}>
       <div className={styles.therapistSection1}>

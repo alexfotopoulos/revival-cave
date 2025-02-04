@@ -14,7 +14,7 @@ export default function Footer() {
                     <Link href="/about" className={styles.footerLink}>
                         About
                     </Link>
-                    <a href="/schedule" className={styles.footerLink}>
+                    <a href="https://clients.mindbodyonline.com/classic/ws?studioid=5742028&stype=-9" target="_blank" className={styles.footerLink}>
                         Schedule a Visit
                     </a>
                 </div>

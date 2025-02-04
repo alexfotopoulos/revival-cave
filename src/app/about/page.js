@@ -4,23 +4,8 @@ import OfficeInfo from "@/src/components/layouts/OfficeInfo";
 import styles from "@/styles/pageStyles/about.module.scss";
 import HeadShot from "@/src/components/about/HeadShot";
 import { therapists } from "@/helpers/therapists";
-import { useEffect } from "react";
 
 export default function About() {
-
-    //useEffect to force hard reload if user navigates back to /schedule
-    useEffect(() => {
-        //function to catch the popstate event
-        const handlePopState = (event) => {
-            //if the new pathname is /schedule
-            if (window.location.pathname === "/schedule") {
-                //force hard reload
-                window.location.assign("/schedule");
-            }
-        };
-
-        window.addEventListener("popstate", handlePopState);
-    }, []);
 
     return (
         <div>

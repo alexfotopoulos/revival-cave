@@ -13,7 +13,7 @@ export default function Hero() {
                 </h1>
                 <p>Book now and see how Revival Cave is more than your typical massage and body work experience.</p>
                 <div>
-                    <a href="/schedule"><Button text="Book an Appointment" /></a>
+                    <a href="https://clients.mindbodyonline.com/classic/ws?studioid=5742028&stype=-9" target="_blank"><Button text="Book an Appointment" /></a>
                 </div>
                 <div className={styles.iconContainer}>
                     <img src="/icons/phoneIcon.svg" alt="phone" />
