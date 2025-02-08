@@ -4,7 +4,7 @@ export const therapists = [
     id: 1,
     name: "ADAM",
     slug: "adam",
-    image: "/AdamHeadshotNew.jpeg",
+    image: "/adamNew.jpg",
     pushImageUp: false,
     bio: ["An Ocala native, Adam began his fitness journey at the age of 13 after discovering his love for weight training. He competed in weightlifting competitions in high school and became a certified personal trainer while attending Florida State University.", "Throughout his fitness journey, Adam incurred numerous injuries including herniated discs, tendinitis, and a ruptured pectoral muscle. Though these injuries were mentally frustrating, Adam came to learn that receiving regular massage and body work would help prevent injury, improve muscle growth and healing, and help him get back to what he loved best - training.", "After competing in a bodybuilding show in 2015, Adam broadened his fitness routine, incorporating yoga, Pilates, cycling, and circuit training. Each program taught him a little bit more about the body, its true biomechanical function, and most importantly, the need to rest, recover and heal.", "With this vast amount of knowledge and experience in the fitness industry, Adam became a licensed massage therapist and opened the Revival Cave to help others heal and perform at their best."]
   },
@@ -12,7 +12,7 @@ export const therapists = [
     id: 2,
     name: "ANDY",
     slug: "andy",
-    image: "/AndyHeadshot2.jpeg",
+    image: "/andyNew.jpg",
     pushImageUp: false,
     bio: ["A 1st Generation American and Florida native from Saint Petersburg, Andy began his fitness journey growing up doing school sports including soccer, track, cross country, and volleyball. While growing up, Andy was a very active kid. He fell in love with martial arts at a young age and through the years has trained and competed in disciplines such as Judo, Muay Thai, Boxing, Tang Soo Do, Jiujitsu, Kungfu, Aikido, and Hapkido.", "Andy was in ROTC in high school and entered the United States Marine Corps after graduation. Joining the service tested his mental fortitude and physical capabilities in stressful conditions. While in the service, he was a mortarman with 1/6 Weapons Company stationed in Camp Lejeune in Jacksonville, North Carolina. After his time in the service, he fell in love with fitness, pushing his limits to see what his peak performance.", "He competed in various Judo and Jiujitsu tournaments in his later years, but after sustaining various injuries from the service and competitions, he switched gears and decided to dedicate his purpose to healing others.", "Nowadays, Andy spends his days educating, healing, and changing lives one person at a time. Outside of competitions, training, and healing, you can find Andy outdoors, hitting various trails, or on the water kayaking, boating, diving, tubing, and fishing. With all his years of experience in the military, martial arts, and healthcare, Andy is here to provide the best attentive treatment for his clients to help them on their wellness journey."]
   },
@@ -20,8 +20,8 @@ export const therapists = [
     id: 3,
     name: "JUSTIN",
     slug: "justin",
-    image: "/JustinHeadshot.jpg",
-    pushImageUp: true,
+    image: "/justinNew.jpg",
+    pushImageUp: false,
     bio: ["Justin was born in Spain due to his father being in the military, but all his family hails from Boston naturally making him a Red Sox fan.", "Raised in Tampa in the 90's Justin has watched the growth of Tampa happen right before his eyes. After breaking his ankle, Justin found his passion for healing through massage therapy.", "While in school to receive his Massage therapist License, Justin doubled down and signed up to go through a 200-hour Yoga Teacher Training course to further better his understanding of breathwork, movement, and how to combine that knowledge with Massage Therapy. Outside of the massage room you may find Justin enjoying a yoga flow, picking at his guitar, or enjoying a round of golf with his father!"]
   },
   {
@@ -36,7 +36,7 @@ export const therapists = [
     id: 5,
     name: "SANDY",
     slug: "sandy",
-    image: "/SandyHeadshot.jpeg",
+    image: "/sandyNew.jpg",
     pushImageUp: false,
     bio: ["Meet Sandy! Raised in Florida, Sandy was first introduced to massage therapy through her cousin Andy, Revival Cave's General Manager. While looking for her passion, Sandy wanted to serve people in a way that would help them heal, leading her to enroll in massage therapist school (Cortiva Graduate '23). While attending Cortiva, Sandy became classmates with Adam, Revival Cave's Owner. Adam began to practice and learn with Sandy during this time as Sandy gained an interest in using IASTM (Instrument Assisted Soft Tissue Mobilization) tools, bringing them to class to work on Adam's tendonitis injury. In Sandy's free time she loves to write, draw, and express herself by creating different mediums of art."]
   },
