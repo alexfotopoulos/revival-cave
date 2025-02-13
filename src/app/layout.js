@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <link rel="shortcut icon" href="/logos/gold-logo.png" />
+            <link rel="shortcut icon" href="/logos/new-logo.png" />
             <body>
                 <Navbar />
                 {children}

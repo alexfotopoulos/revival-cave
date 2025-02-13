@@ -7,7 +7,7 @@ export default function Footer() {
             <div className={styles.footerSection1}>
                 <img
                     className={styles.footerLogo}
-                    src="/logos/gold-logo.png"
+                    src="/logos/new-logo.png"
                     alt="company logo"
                 />
                 <div className={styles.footerLinksGroup}>

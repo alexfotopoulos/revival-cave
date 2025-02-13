@@ -59,7 +59,7 @@ export default function Navbar() {
   return (
     <div className={styles.modalCatcher}>
       <nav className={styles.permanentNav}>
-        <div className={styles.brand}><Link href="/"><img src="/logos/gold-logo.png" alt="company logo" /></Link></div>
+        <div className={styles.brand}><Link href="/"><img src="/logos/new-logo.png" alt="company logo" /></Link></div>
         {!showModal && content}
       </nav>
       {showModal && <Modal function={toggleModal} />}

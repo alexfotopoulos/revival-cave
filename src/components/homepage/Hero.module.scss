@@ -4,8 +4,8 @@
 .hero {
   height: calc(100vh - 9rem);
   background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
-    url("../../../public/heroImage.jpeg");
-  background-position: left;
+    url("../../../public/heroImageMobile.jpg");
+  background-position: top;
   background-size: cover;
 }
 
@@ -47,7 +47,6 @@
   .hero {
       background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)),
       url("../../../public/heroImageMobile.jpg");
-      background-position: top;
       background-position: 38%;
   }
 
