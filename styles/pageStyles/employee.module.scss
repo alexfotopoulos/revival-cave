@@ -1,7 +1,7 @@
 @import "../sass/abstracts/variables";
 @import "../sass/abstracts/mixins";
 
-.therapistPage {
+.employeePage {
   padding: 0 10%;
   margin: 6rem 0;
   display: grid;
@@ -10,12 +10,12 @@
   font-size: $font-size-medium;
 }
 
-.therapistHeading {
+.employeeHeading {
   @include heading-primary;
   text-transform: uppercase;
 }
 
-.therapistHeadingContainer {
+.employeeHeadingContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +29,7 @@
   margin-left: 1rem;
 }
 
-.therapistSection1 {
+.employeeSection1 {
   grid-column: 1 / 4;
 }
 
@@ -58,6 +58,7 @@
 .bioContainer {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .bioImageContainer {
@@ -79,7 +80,7 @@
 }
 
 @media (max-width: 650px) {
-  .therapistPage {
+  .employeePage {
     padding: 0 5%;
   }
   .bioContainer {

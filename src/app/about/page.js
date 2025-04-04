@@ -4,9 +4,28 @@ import OfficeInfo from "@/src/components/layouts/OfficeInfo";
 import styles from "@/styles/pageStyles/about.module.scss";
 import HeadShot from "@/src/components/about/HeadShot";
 import { therapists } from "@/helpers/therapists";
+import {estheticians} from "@/helpers/estheticians"
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 
 export default function About() {
+    
+    //initialize router
+    const router = useRouter();
 
+    //useEffect to force hard reload if user navigates back to /schedule
+    useEffect(() => {
+        //function to catch the popstate event
+        const handlePopState = (event) => {
+            //if the new pathname is /schedule
+            if (window.location.pathname === "/schedule") {
+                //force hard reload
+                window.location.assign("/schedule");
+            }
+        };
+
+        window.addEventListener("popstate", handlePopState);
+    }, []);
     return (
         <div>
             <div className={styles.aboutPage}>
@@ -18,10 +37,10 @@ export default function About() {
                     <p>
                         The Revival Cave provides a highly personalized
                         experience for individuals seeking a full package of
-                        massage and bodywork services and exceptional
+                        massage and bodywork, facial services, and exceptional
                         hospitality. Whether you’re seeking chronic pain relief,
-                        injury prevention/recovery, or general muscle tissue
-                        maintenance, the Revival Cave is committed to providing
+                        injury prevention/recovery, general muscle tissue
+                        maintenance, or help with your skincare, the Revival Cave is committed to providing
                         the highest quality service to address your needs.
                     </p>
                     <p>
@@ -32,6 +51,10 @@ export default function About() {
                     <h3 className={styles.aboutSectionHeading}>Meet our Massage Therapists</h3>
                     <div className={styles.headshotContainer}>
                         {therapists.map(t => <HeadShot key={t.name} {...t} />)}
+                    </div>
+                    <h3 className={styles.aboutSectionHeading}>Meet our Massage Estheticians</h3>
+                    <div className={styles.headshotContainer}>
+                        {estheticians.map(t => <HeadShot key={t.name} {...t} />)}
                     </div>
                 </div>
             </div>

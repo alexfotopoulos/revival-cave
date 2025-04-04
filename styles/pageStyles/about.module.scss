@@ -63,6 +63,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
+  &:nth-of-type(1) {
+    margin-bottom: $margin-large;
+  }
   @media (max-width: 60rem) {
     grid-template-columns: 1fr 1fr;
   }

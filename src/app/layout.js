@@ -4,7 +4,7 @@ import Footer from "../components/layouts/Footer";
 
 export const metadata = {
     title: "Revival Cave",
-    description: "Revival Cave, located in Tampa, FL strives to create a personalized experience for each individual client by combining great body work with exceptional hospitality.",
+    description: "Revival Cave, located in Tampa, FL strives to create a personalized experience for each individual client by combining great bodywork and skincare with exceptional hospitality.",
 };
 
 export default function RootLayout({ children }) {
