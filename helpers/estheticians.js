@@ -6,7 +6,7 @@ export const estheticians = [
     slug: "savana",
     image: "/savana.jpg",
     pushImageUp: false,
-    bio: []
+    bio: ["Savana began her skincare journey shortly after moving from Wyoming to Florida and has spent the last 6 years helping people feel confident in their skin. She has always loved connecting with others and sharing her knowledge! She specializes in personalized treatments that cater to your unique skin needs, whether you're dealing with acne, dryness, or sensitivity. Her main goal is to educate and empower you to maintain healthy, beautiful skin and boost your confidence with every treatment.", "Outside the treatment room, Savana stays active training for bodybuilding competitions, something she is really passionate about! She balances this with serene walks on the beach and recharging her energy with fresh air."]
   },
   {
     id: 2,
