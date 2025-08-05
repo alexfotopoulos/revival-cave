@@ -52,7 +52,7 @@ export default function About() {
                     <div className={styles.headshotContainer}>
                         {therapists.map(t => <HeadShot key={t.name} {...t} />)}
                     </div>
-                    <h3 className={styles.aboutSectionHeading}>Meet our Massage Estheticians</h3>
+                    <h3 className={styles.aboutSectionHeading}>Meet our Estheticians</h3>
                     <div className={styles.headshotContainer}>
                         {estheticians.map(t => <HeadShot key={t.name} {...t} />)}
                     </div>

@@ -10,14 +10,6 @@ export const estheticians = [
   },
   {
     id: 2,
-    name: "STEPHANIE",
-    slug: "stephanie",
-    image: "/stephanie.jpg",
-    pushImageUp: false,
-    bio: ["Stephanie, a former kickboxing and Mat Pilates instructor, has been a Licensed Esthetician for 8 years. After owning her own business for 3 years, in 2024 she took a leap of faith and closed shop to move down to the sunshine state from New Jersey!", "Her love for skincare started during her early high school years. After getting her associates in science at Alvernia University and with her passion growing deeper for skincare, Stephanie went to school at Capri Institute for Esthetics. Over the years Stephanie has been certified in a multitude of treatments and skincare lines, including Microdermabrasion, Chemical Peels, Dermaplaning, and Laser Hair Removal. Soon after, she oversaw training other estheticians in these modalities.", "Stephanie is a dog mom to Copper, her 8 year old Boston Terrier. In her free time, she enjoys reading, sunbathing (with SPF of course!) and exploring her new city here in Tampa."]
-  },
-  {
-    id: 3,
     name: "ARIANA",
     slug: "ariana",
     image: "/ariana.jpg",

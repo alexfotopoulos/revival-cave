@@ -12,3 +12,21 @@
     }
 }
 
+.membershipSection {
+    padding: $margin-small;
+}
+
+.membershipHeading {
+    @include heading-secondary;
+    margin-bottom: $margin-small;
+}
+
+.membershipLink {
+    color: $color-primary;
+    text-decoration: underline;
+
+    &:hover {
+        cursor: pointer ;
+    }
+}
+
