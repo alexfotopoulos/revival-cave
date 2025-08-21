@@ -1,0 +1,33 @@
+@import "@/styles/sass/abstracts/variables";
+@import "@/styles/sass/abstracts/mixins";
+
+.pricingTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  margin-bottom: $margin-large;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.tableHeading,
+.tableData,
+.tableRow {
+  border: 1px solid #ddd;
+  padding: 14px;
+  text-align: center;
+}
+
+.tableHeading {
+  margin: $margin-smaller;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tableTitle {
+  @include heading-secondary;
+  color: $color-primary;
+  text-align: center;
+  margin-bottom: $margin-smaller;
+}

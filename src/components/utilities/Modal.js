@@ -15,6 +15,7 @@ export default function Modal(props) {
                 <div className={styles.linksGroup}>
                     <Link href="/about" className={styles.modalLink} onClick={handleClick}>About</Link>
                     <a href="/schedule" className={styles.modalLink} onClick={handleClick}>Schedule a Visit</a>
+                    <Link href="/memberships" className={styles.modalLink} onClick={handleClick}>Memberships</Link>
                 </div>
             </div>
         </div>

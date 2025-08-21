@@ -44,10 +44,6 @@ export default function Schedule() {
                     height={iframeHeight}
                 ></iframe> */}
                 {showIframe && (<><div className="mindbody-widget" data-widget-type="Appointments" data-widget-id="e8198349255"></div><Script async src="https://brandedweb.mindbodyonline.com/embed/widget.js"></Script></>)}
-                <div className={styles.membershipSection}>
-                    <div className={styles.membershipHeading}>Memberships</div>
-                    <p className={styles.test}>Interested in a Revival Cave membership? Click <a className={styles.membershipLink} href="https://clients.mindbodyonline.com/classic/ws?studioid=5742028&stype=40" target="_blank">here</a> to sign up</p>
-                </div>
             </div>
         </div>
     );

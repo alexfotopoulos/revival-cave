@@ -1,0 +1,45 @@
+@import "../sass/abstracts/variables";
+@import "../sass/abstracts/mixins";
+
+.membershipsPage {
+  padding: 0 10%;
+  margin: 6rem 0;
+  font-size: $font-size-medium;
+}
+
+.membershipsHeading {
+  @include heading-primary;
+  margin-bottom: $margin-small;
+  padding-bottom: $margin-small;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+}
+
+.membershipsSection1 {
+  margin-bottom: $margin-large
+}
+
+.membershipLink {
+  color: $color-primary;
+  text-decoration: underline;
+}
+
+.termsList {
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+.termsListHeading {
+  font-weight: bold;
+}
+
+@media (max-width: 650px) {
+  .membershipsPage {
+    padding: 0 5%;
+    margin: 6rem auto;
+  }
+
+  .termsList {
+    margin-left: $margin-small;
+  }
+}
