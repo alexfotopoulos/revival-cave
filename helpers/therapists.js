@@ -46,7 +46,7 @@ export const therapists = [
     slug: "glenn",
     image: "/updated/glenn.jpg",
     pushImageUp: false,
-    bio: ["Born and raised in Florida, Isabel discovered her passion for massage long before making it a career. She would often massage family members and had a natural talent for it. After being encouraged by her best friend and family, she enrolled at Cortiva in 2015. After graduating top honors, Isabel has obtained experience at various spas and has worked at a chiropractor's office for the past 5 years.Working with patients throughout their treatment plan and witnessing the improvement of their conditions over time fueled her love for massage therapy. By learning new modalities and different ways to approach massage, she was able to apply all her knowledge to the first people she ever wanted to heal, her family. Isabel has been able to alleviate pain and stress from those closest to her.", "During Isabel's downtime, she's either listening to kpop, watching anime, or enjoying all Tampa Bay has to offer with her family!"]
+    bio: ["Glenn is a licensed massage therapist dedicated to helping clients relax, restore, and feel their best. He specializes in Swedish and deep Swedish relaxation massage, using soothing, intentional techniques to ease stress, release tension, and create a deeply calming experience tailored to each individual.", "A Tampa native, Glenn has always had a passion for wellness and a genuine desire to make a positive impact on others. His approach combines mindful connection with skilled touch, helping clients unwind, recharge, and leave each session feeling renewed in both body and mind.", "Outside of his work, Glenn enjoys swimming, spending time in the sun, and embracing the Florida lifestyle that inspires the warm, restorative energy he brings to every massage."]
   },
   {
     id: 7,
@@ -57,7 +57,7 @@ export const therapists = [
     bio: ["Born and raised in St. Petersburg, Florida, Alec Gamble (AG), is a dedicated pain therapy specialist with a deep passion for helping people move better and live pain-free. His journey into bodywork began after a traumatic basketball injury that left him struggling with chronic pain. After trying multiple approaches without success, it was a skilled therapist using hands-on bodywork that finally brought him lasting relief. That experience changed the course of his life, igniting a drive to understand pain, healing, and the incredible resilience of the human body. AG now specializes in treating chronic pain, postural dysfunction, and restricted movement using neurosomatic therapy and neurofascial release. With each session, he works directly with the body's fascia and nervous system, using precise techniques to release tension, correct alignment, and restore function. He incorporates breathwork, movement, and postural education to help clients not only feel better but stay better. Alec brings nearly two years of experience and dedicated clinical study to the table. His personal connection to pain and healing gives him a unique sense of empathy and insight that clients immediately feel. Every session is an opportunity to bring someone closer to relief, and that's what drives him every day."]
   },
   {
-    id: 7,
+    id: 8,
     name: "HANNAH",
     slug: "hannah",
     image: "/updated/hannah.jpg",
@@ -65,7 +65,7 @@ export const therapists = [
     bio: []
   },
   {
-    id: 8,
+    id: 9,
     name: "JOY",
     slug: "joy",
     image: "/updated/joy.jpg",
@@ -73,7 +73,7 @@ export const therapists = [
     bio: []
   },
   {
-    id: 9,
+    id: 10,
     name: "ZACK",
     slug: "zack",
     image: "/updated/zack.jpg",
