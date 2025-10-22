@@ -7,9 +7,9 @@ export default function Hero() {
         <div className={styles.hero}>
             <div className={styles.header}>
                 <h1>
-                <div>REST.</div>
-                <div>RELAX.</div>
-                <div>REVIVE.</div>
+                <span>REST.</span>
+                <span>RELAX.</span>
+                <span>REVIVE.</span>
                 </h1>
                 <p>Book now and see how Revival Cave is more than your typical massage, bodywork, and facial experience.</p>
                 <div>
@@ -21,5 +21,5 @@ export default function Hero() {
                 </div>
             </div>
         </div>
-    )
+    );
 }

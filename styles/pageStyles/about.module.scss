@@ -18,6 +18,18 @@
   text-transform: uppercase;
 }
 
+.groupImageContainer {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  // border: 10px solid blue;
+}
+
+.groupImage {
+  object-fit: contain;
+  object-position: center
+}
+
 .aboutSectionHeading {
   @include heading-secondary;
   margin: $margin-small 0;

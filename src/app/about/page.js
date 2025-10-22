@@ -3,13 +3,15 @@
 import OfficeInfo from "@/src/components/layouts/OfficeInfo";
 import styles from "@/styles/pageStyles/about.module.scss";
 import HeadShot from "@/src/components/about/HeadShot";
+import Image from "next/image";
 import { therapists } from "@/helpers/therapists";
-import {estheticians} from "@/helpers/estheticians"
+import { estheticians } from "@/helpers/estheticians";
+import { spaAttendant } from "@/helpers/spaAttendant";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 export default function About() {
-    
+
     //initialize router
     const router = useRouter();
 
@@ -48,6 +50,9 @@ export default function About() {
                         instrument assisted soft tissue mobilization (IASTM),
                         Theragun, trigger point release, and sports stretching.
                     </p>
+                    <div className={styles.groupImageContainer}>
+                        <Image src="/updated/hero.jpg" fill className={styles.groupImage}/>
+                    </div>
                     <h3 className={styles.aboutSectionHeading}>Meet our Massage Therapists</h3>
                     <div className={styles.headshotContainer}>
                         {therapists.map(t => <HeadShot key={t.name} {...t} />)}
@@ -55,6 +60,10 @@ export default function About() {
                     <h3 className={styles.aboutSectionHeading}>Meet our Estheticians</h3>
                     <div className={styles.headshotContainer}>
                         {estheticians.map(t => <HeadShot key={t.name} {...t} />)}
+                    </div>
+                    <h3 className={styles.aboutSectionHeading}>Lead Spa Attendant</h3>
+                    <div className={styles.headshotContainer}>
+                        {spaAttendant.map(t => <HeadShot key={t.name} {...t} />)}
                     </div>
                 </div>
             </div>

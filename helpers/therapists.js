@@ -66,14 +66,6 @@ export const therapists = [
   },
   {
     id: 9,
-    name: "JOY",
-    slug: "joy",
-    image: "/updated/joy.jpg",
-    pushImageUp: false,
-    bio: []
-  },
-  {
-    id: 10,
     name: "ZACK",
     slug: "zack",
     image: "/updated/zack.jpg",
