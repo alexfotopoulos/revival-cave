@@ -9,6 +9,7 @@ import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 import Link from "next/link";
 import LeftArrow from "@/src/components/utilities/LeftArrow";
+import { spaAttendant } from "@/helpers/spaAttendant";
 
 
 export default function Therapist() {
@@ -31,6 +32,14 @@ export default function Therapist() {
     //if param matches a slug, assign to empty "employee" variable
     if (e.slug === params.employee) {
       employee = e;
+    }
+  }
+
+  //check if "employee" param from url matches a slug for an spaAttendant
+  for (let s of spaAttendant) {
+    //if param matches a slug, assign to empty "employee" variable
+    if (s.slug === params.employee) {
+      employee = s;
     }
   }
 
