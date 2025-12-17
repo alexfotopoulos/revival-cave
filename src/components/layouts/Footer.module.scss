@@ -30,6 +30,23 @@
   margin-right: $margin-small;
 }
 
+.contactGroup {
+  display: flex;
+  justify-content: space-evenly;
+  // border: 1px solid red;
+}
+
+.contactUs {
+  color: white;
+  font-size: $font-size-medium;
+  text-decoration: underline;
+  margin-bottom: $margin-smaller;
+}
+
+.phoneNumber {
+  margin-right: $margin-small;
+}
+
 .footerSocialLinks {
   min-width: 10rem;
   display: flex;
@@ -44,4 +61,11 @@
 }
 
 @media (max-width: 650px) {
+  .contactGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  // border: 1px solid red;
+}
 }
