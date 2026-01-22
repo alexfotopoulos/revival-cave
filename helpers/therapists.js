@@ -18,14 +18,6 @@ export const therapists = [
   },
   {
     id: 3,
-    name: "ALEK",
-    slug: "alek",
-    image: "/updated/alek.jpg",
-    pushImageUp: false,
-    bio: ["Father of two, Alek lived in New York, California, and North Carolina before moving to Tampa, FL in 2017. Alek's love for wrestling and weightlifting as a teen became his gateway to finding his passion in the health and wellness industry.", "Following his dreams, Alek became a certified personal trainer, coaching clients to live a healthier lifestyle. With this experience, as well as flirting with an office job for a few years, Alek learned first-hand what hard labor can do to our bodies, and how even office environments can take a toll on our mental and physical health.", "After becoming a father in 2020 during a global pandemic, stress was at an all-time high. Alek began to take health and wellness to a new level. He knew he wanted to be as healthy and strong as possible for his family. He became a Licensed Massage Therapist to help others understand the power of self-care. His goal is to help others feel revived and empowered both mentally and physically so clients can continue to be their best self they can be!"]
-  },
-  {
-    id: 4,
     name: "SANDY",
     slug: "sandy",
     image: "/updated/sandy.jpg",
@@ -33,7 +25,7 @@ export const therapists = [
     bio: ["Meet Sandy! Raised in Florida, Sandy was first introduced to massage therapy through her cousin Andy, Revival Cave's General Manager. While looking for her passion, Sandy wanted to serve people in a way that would help them heal, leading her to enroll in massage therapist school (Cortiva Graduate '23). While attending Cortiva, Sandy became classmates with Adam, Revival Cave's Owner. Adam began to practice and learn with Sandy during this time as Sandy gained an interest in using IASTM (Instrument Assisted Soft Tissue Mobilization) tools, bringing them to class to work on Adam's tendonitis injury. In Sandy's free time she loves to write, draw, and express herself by creating different mediums of art."]
   },
   {
-    id: 5,
+    id: 4,
     name: "ANNAKA",
     slug: "annaka",
     image: "/updated/annaka.jpg",
@@ -41,7 +33,7 @@ export const therapists = [
     bio: ["I grew up in North Carolina but I've lived in Florida for 12 years and consider it home. I saw the therapeutic benefits of massage first hand as a young child through my mom. Massage therapy allowed her to be physically present and mobile for me. I want to provide the same relief to others. I have a passion for helping people feel their best— whether it's through deep tissue work, relaxation techniques, or injury recovery.", "When I'm not in the treatment room, you'll find me out exploring the world: hiking scenic trails, skiing fresh powder, kayaking quiet waters, or planning my next adventure. I believe that movement, nature, and self-care go hand in hand, and I bring that philosophy into every session."]
   },
   {
-    id: 6,
+    id: 5,
     name: "GLENN",
     slug: "glenn",
     image: "/updated/glenn.jpg",
@@ -49,7 +41,7 @@ export const therapists = [
     bio: ["Glenn is a licensed massage therapist dedicated to helping clients relax, restore, and feel their best. He specializes in Swedish and deep Swedish relaxation massage, using soothing, intentional techniques to ease stress, release tension, and create a deeply calming experience tailored to each individual.", "A Tampa native, Glenn has always had a passion for wellness and a genuine desire to make a positive impact on others. His approach combines mindful connection with skilled touch, helping clients unwind, recharge, and leave each session feeling renewed in both body and mind.", "Outside of his work, Glenn enjoys swimming, spending time in the sun, and embracing the Florida lifestyle that inspires the warm, restorative energy he brings to every massage."]
   },
   {
-    id: 7,
+    id: 6,
     name: "ALEC (AG)",
     slug: "alec",
     image: "/updated/alec.jpg",
@@ -57,7 +49,7 @@ export const therapists = [
     bio: ["Born and raised in St. Petersburg, Florida, Alec Gamble (AG), is a dedicated pain therapy specialist with a deep passion for helping people move better and live pain-free. His journey into bodywork began after a traumatic basketball injury that left him struggling with chronic pain. After trying multiple approaches without success, it was a skilled therapist using hands-on bodywork that finally brought him lasting relief. That experience changed the course of his life, igniting a drive to understand pain, healing, and the incredible resilience of the human body. AG now specializes in treating chronic pain, postural dysfunction, and restricted movement using neurosomatic therapy and neurofascial release. With each session, he works directly with the body's fascia and nervous system, using precise techniques to release tension, correct alignment, and restore function. He incorporates breathwork, movement, and postural education to help clients not only feel better but stay better. Alec brings nearly two years of experience and dedicated clinical study to the table. His personal connection to pain and healing gives him a unique sense of empathy and insight that clients immediately feel. Every session is an opportunity to bring someone closer to relief, and that's what drives him every day."]
   },
   {
-    id: 8,
+    id: 7,
     name: "HANNAH",
     slug: "hannah",
     image: "/updated/hannah.jpg",
@@ -65,7 +57,7 @@ export const therapists = [
     bio: []
   },
   {
-    id: 9,
+    id: 8,
     name: "ZACK",
     slug: "zack",
     image: "/updated/zack.jpg",
