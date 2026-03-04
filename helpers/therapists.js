@@ -64,4 +64,12 @@ export const therapists = [
     pushImageUp: false,
     bio: ["Hi, I’m Isaiah. I became a massage therapist because I felt called to help others heal in a holistic way. My sessions focus on relaxation while addressing problem areas with balanced, intentional pressure.", "I’ve worked in spas, chiropractic offices, and with athletes, helping people relax and recover. I’ve been vegan since 2021 and enjoy the beach, water slides (not rollercoasters), self-help books, anime, traveling, and staying positive — an energy I bring into every session."]
   },
+  {
+    id: 9,
+    name: "ANNA",
+    slug: "anna",
+    image: "/updated/anna.jpeg",
+    pushImageUp: false,
+    bio: ["Anna specializes in recovery-focused, performance-driven massage therapy that enhances mobility, accelerates recovery, and helps prevent injury. Her work is precise, intentional, and results-oriented, with each session tailored to restore balance, relieve tension, and optimize overall function with professionalism and care.", "Outside the treatment room, Anna enjoys immersive experiences like escape rooms and arcades, exploring Tampa’s evolving food scene, and expressing creativity through sublimation design. This balance of physical and creative energy allows her to bring focus, presence, and elevated care to every session.","Her philosophy is simple: recovery isn’t a luxury—it’s an investment in long-term performance and well-being."]
+  },
 ]

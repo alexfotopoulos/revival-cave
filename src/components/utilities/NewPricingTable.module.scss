@@ -1,0 +1,80 @@
+@import "@/styles/sass/abstracts/variables";
+@import "@/styles/sass/abstracts/mixins";
+
+//Below is code for the Facials table
+.pricingTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  margin-bottom: $margin-large;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.tableHeading,
+.tableData,
+.tableRow {
+  border: 1px solid #ddd;
+  padding: 14px;
+  text-align: center;
+}
+
+.tableHeading {
+  margin: $margin-smaller;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tableTitle {
+  @include heading-secondary;
+  color: $color-primary;
+  text-align: center;
+  margin-bottom: $margin-smaller;
+}
+
+//Below is code for the Massage tables
+.pricingTableU {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: $margin-large;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.pricingTableU td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.pricingTableU td[rowspan] {
+  // font-weight: 600;
+}
+
+.pricingTableU tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.pricingTableU th {
+  border: 1px solid #ddd;
+  padding: 14px;
+  // color: $color-primary
+}
+
+.memberPricing {
+  color: $color-primary;
+}
+
+@media (max-width: 600px) {
+  .pricingTableU td {
+    padding: 8px 0px;
+  }
+  .pricingTableU td:nth-of-type(1) {
+    padding: 8px 5px;
+  }
+  .pricingTableU th {
+    padding: 3px;
+  }
+}
+

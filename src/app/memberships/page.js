@@ -1,9 +1,9 @@
 "use client";
 
-import PricingTable from "@/src/components/utilities/PricingTable";
 import styles from "@/styles/pageStyles/memberships.module.scss";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
+import NewPricingTable from "@/src/components/utilities/NewPricingTable";
 
 
 export default function Memberships() {
@@ -31,13 +31,15 @@ export default function Memberships() {
         <div className={styles.membershipsSection1}>
           <p>We’re excited to announce that Revival Cave is now offering exclusive memberships designed to give our clients more relaxation, more savings, and more wellness all year round. As a member, you'll enjoy 25% off all non-member rates and giftable credits that can be gifted to family and friends at any time during your active membership. <a className={styles.membershipLink} href="https://clients.mindbodyonline.com/classic/ws?studioid=5742028&stype=40" target="_blank">Sign up</a> today!</p>
         </div>
-        <PricingTable />
+        {/* <PricingTable /> */}
+        <NewPricingTable />
         <ul className={styles.termsList}>
           <li><span className={styles.termsListHeading}>Pause Policy: </span>Memberships can be paused at any time</li>
           <li><span className={styles.termsListHeading}>Credit Expiration: </span>Monthly service credits expire 12 months after the date they are issued</li>
           <li><span className={styles.termsListHeading}>Non-refundable: </span>All membership charges and unused credits are non-refundable</li>
           <li><span className={styles.termsListHeading}>Recurring biling: </span>Memberships are billed monthly and will auto-renew unless cancelled or paused with proper notice</li>
-          <li><span className={styles.termsListHeading}>Cancellation Policy: </span>To avoid being charged, cancellation requests must be submitted at least 7 days before the next billing cycle</li>
+          <li><span className={styles.termsListHeading}>Membership Cancellation Policy: </span>To avoid being charged, cancellation requests must be submitted at least 7 days before the next billing cycle</li>
+          <li><span className={styles.termsListHeading}>Appointment Cancellation Policy: </span>Appointments canceled within 24 hours of the scheduled time, or missed without notice (no-show), will incur a $50 cancellation fee</li>
         </ul>
       </div>
     </div>
