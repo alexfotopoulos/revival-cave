@@ -61,10 +61,10 @@ export default function About() {
                     <div className={styles.headshotContainer}>
                         {estheticians.map(t => <HeadShot key={t.name} {...t} />)}
                     </div>
-                    <h3 className={styles.aboutSectionHeading}>Lead Spa Attendant</h3>
+                    {/* <h3 className={styles.aboutSectionHeading}>Lead Spa Attendant</h3>
                     <div className={styles.headshotContainer}>
                         {spaAttendant.map(t => <HeadShot key={t.name} {...t} />)}
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <OfficeInfo />

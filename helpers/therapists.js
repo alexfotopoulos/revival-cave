@@ -50,11 +50,11 @@ export const therapists = [
   },
   {
     id: 7,
-    name: "ZACK",
-    slug: "zack",
-    image: "/updated/zack.jpg",
+    name: "ALBERTO",
+    slug: "alberto",
+    image: "/updated/alberto.jpeg",
     pushImageUp: false,
-    bio: []
+    bio: ["Alberto is a licensed massage therapist with over a decade of experience helping clients restore balance, relieve tension, and move with greater ease. His background includes work in rehabilitation clinics, spas, and mobile massage, giving him a deep understanding of both therapeutic and relaxation-focused bodywork.", "Known for his science-driven approach, Alberto takes time to assess each client's needs and tailors every session with intention and care. He believes that massage should do more than help you feel better in the moment-it should help you feel good tomorrow, too. His calm presence and attentive touch create an experience that's as restorative as it is effective."]
   },
   {
     id: 8,
