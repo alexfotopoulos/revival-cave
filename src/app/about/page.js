@@ -20,9 +20,11 @@ export default function About() {
         //function to catch the popstate event
         const handlePopState = (event) => {
             //if the new pathname is /schedule
-            if (window.location.pathname === "/schedule") {
+            if (window.location.pathname === "/schedule/hyde-park") {
                 //force hard reload
-                window.location.assign("/schedule");
+                window.location.assign("/schedule/hyde-park");
+            } else if (window.location.pathname === "/schedule/kodawari") {
+                window.location.assign("/schedule/kodawari");
             }
         };
 
@@ -51,7 +53,7 @@ export default function About() {
                         Theragun, trigger point release, and sports stretching.
                     </p>
                     <div className={styles.groupImageContainer}>
-                        <Image src="/updated/hero.jpg" fill className={styles.groupImage}/>
+                        <Image src="/updated/hero.jpg" fill className={styles.groupImage} />
                     </div>
                     <h3 className={styles.aboutSectionHeading}>Meet our Massage Therapists</h3>
                     <div className={styles.headshotContainer}>
