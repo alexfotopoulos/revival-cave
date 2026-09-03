@@ -58,14 +58,6 @@ export const therapists = [
   },
   {
     id: 8,
-    name: "ISAIAH",
-    slug: "isaiah",
-    image: "/updated/isaiah.jpeg",
-    pushImageUp: false,
-    bio: ["Hi, I’m Isaiah. I became a massage therapist because I felt called to help others heal in a holistic way. My sessions focus on relaxation while addressing problem areas with balanced, intentional pressure.", "I’ve worked in spas, chiropractic offices, and with athletes, helping people relax and recover. I’ve been vegan since 2021 and enjoy the beach, water slides (not rollercoasters), self-help books, anime, traveling, and staying positive — an energy I bring into every session."]
-  },
-  {
-    id: 9,
     name: "ANNA",
     slug: "anna",
     image: "/updated/anna.jpeg",
