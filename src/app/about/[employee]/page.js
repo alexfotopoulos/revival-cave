@@ -57,11 +57,9 @@ export default function Therapist() {
     //function to catch the popstate event
     const handlePopState = (event) => {
       //if the new pathname is /schedule
-      if (window.location.pathname === "/schedule/hyde-park") {
+      if (window.location.pathname === "/schedule") {
         //force hard reload
-        window.location.assign("/schedule/hyde-park");
-      } else if (window.location.pathname === "/schedule/kodawari") {
-        window.location.assign("/schedule/kodawari");
+        window.location.assign("/schedule");
       }
     };
 
